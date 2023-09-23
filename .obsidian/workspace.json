@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "b6f40f8f3d6c1b15",
+    "type": "split",
+    "children": [
+      {
+        "id": "93a3497b2e467854",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbd7bf6bf2469c25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/this/this.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed5c0cfd4fe4e672",
+    "type": "split",
+    "children": [
+      {
+        "id": "106f4e6206a1f2cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "325ff9994de49610",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "29a6139eb4c448bb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "479c641ebb1a4fd8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "8c16268d0a6dbfc3",
+    "type": "split",
+    "children": [
+      {
+        "id": "16d7a87ee301c835",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54e29248d4543de4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JavaScript/this/this.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1caf78a18f19dc09",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "JavaScript/this/this.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9ae758fae060d981",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ee6d420aabeed2b4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JavaScript/this/this.md"
+              }
+            }
+          },
+          {
+            "id": "594687bbeb013dcd",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "dbd7bf6bf2469c25",
+  "lastOpenFiles": [
+    "README.md",
+    "Calendar/1. Daily/2023-09-23.md",
+    "JavaScript/this/this와 이벤트 핸들러.md",
+    "JavaScript/this/this와 객체.md",
+    "JavaScript/this/this와 화살표 함수.md",
+    "JavaScript/this/this.md",
+    "JavaScript/this/this 바인딩.md",
+    "JavaScript/this",
+    "JavaScript/이벤트 (Event)/이벤트 (Event).md",
+    "JavaScript/이벤트 (Event)/이벤트 위임 (Event Delegation).md",
+    "Calendar/1. Daily/2023-09-20.md",
+    "JavaScript/이벤트 (Event)/이벤트 핸들러 (Event Handler).md",
+    "Calendar/1. Daily/2023-09-22.md",
+    "JavaScript/이벤트 (Event)/이벤트 캡처링 (Event Capturing).md",
+    "JavaScript/이벤트 (Event)/이벤트 버블링 (Event Bubbling).md",
+    "JavaScript/이벤트 (Event)",
+    "Assets/이벤트-버블링-1.png",
+    "Assets",
+    "JavaScript/Storage API.md",
+    "Calendar/2. Weekly/2023-W38.md",
+    "2023-09-20.md",
+    "Calendar/3. Monthly/2023-09.md",
+    "Calendar/1. Daily/2023-09-21.md",
+    "Calendar/3. Monthly",
+    "Calendar/2. Weekly",
+    "Calendar/1. Daily",
+    "Calendar/1. Daily.md",
+    "Calendar/3. Monthly",
+    "Calendar/1. Daily",
+    "Calendar/2. Weekly",
+    "Calendar"
+  ]
+}
