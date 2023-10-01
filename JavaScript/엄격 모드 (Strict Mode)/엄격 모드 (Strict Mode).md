@@ -58,4 +58,37 @@ func(); // Uncaught ReferenceError: hello is not defined
 console.log(hello); // Uncaught ReferenceError: hello is not defined
 ```
 
-## 2. 
+## 2. 쓸 수 없는(non-writable) 할당 예외
+
+`NaN`, `undefined` 등 이미 존재하는 키워드나, 객체 프로퍼티 중 `writable` 값이 `false` 인 프로퍼티 등에 새롭게 값을 할당하는 경우, 비엄격 모드에서는 아무런 작업이 진행되지 않고 넘어간다.
+
+```javascript
+// 비엄격 모드
+const obj1 = {};
+Object.defineProperty(obj1, "x", { value: 42, writable: false });
+obj1.x = 9; // 아무런 작업도 이루어지지 않음
+```
+
+엄격 모드에서는 이러한 할당 시도가 예외를 발생시킨다. (일반적으로 `TypeError`가 발생)
+
+```javascript
+// 엄격 모드
+"use strict";
+const obj1 = {};
+Object.defineProperty(obj1, "x", { value: 42, writable: false });
+obj1.x = 9; // Uncaught TypeError: Cannot assign to read only property 'x' of object
+```
+
+## 3. 삭제할 수 없는 프로퍼티 삭제 예외
+
+객체의 `configurable` 프로퍼티가 `false` 인 등, 삭제할 수 없는 프로퍼티를 삭제하는 경우 예외를 발생시킨다.
+
+```javascript
+"use strict";
+delete Object.prototype; // Uncaught TypeError: Cannot delete property 'prototype' of function Object()
+```
+
+## 4. 중복된 파라미터 이름 사용 예외
+
+
+
