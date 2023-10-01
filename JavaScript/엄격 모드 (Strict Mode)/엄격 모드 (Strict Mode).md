@@ -32,4 +32,30 @@ export default strict;
 
 # 엄격 모드 변경점
 
-## 1. 
+## 1. 전역 변수 생성 방지
+
+전역 변수를 호출하듯이 키워드를 호출하는 경우, 전역 변수의 프로퍼티로 등록된다.
+
+```javascript
+function func() {
+    hello = 1; // 새로운 전역 변수 hello 생성
+}
+
+func();
+
+console.log(hello); // 1
+```
+
+만약 전역 변수를 호출하는 대신, 오타 등 실수로 새로운 전역 변수가 생성될 수 있다. 따라서 엄격 모드에서는 전역 변수를 생성하는 할당이 `Reference Error`를 발생시킨다.
+
+```javascript
+function func() {
+    "use strict";
+    hello = 1;
+}
+
+func(); // Uncaught ReferenceError: hello is not defined
+console.log(hello); // Uncaught ReferenceError: hello is not defined
+```
+
+## 2. 
