@@ -1,27 +1,27 @@
 # this란?
 
-JavaScript에서 `this` 는 일반적으로 현재 코드를 실행하는 대상을 참조하는 키워드를 의미한다. 일반 함수에서 호출하는 `this`는 [[전역 객체]]를 참조하고, 만약 `this`를 참조하는 함수가 객체의 메소드일 경우 호출한 객체를 참조한다.
+JavaScript에서 `this` 는 일반적으로 현재 코드를 실행하는 대상을 참조하는 키워드를 의미한다. 일반 함수에서 호출하는 `this`는 [[전역 객체 (Global Object)]]를 참조하고, 만약 `this`를 참조하는 함수가 객체의 메소드일 경우 호출한 객체를 참조한다.
 
 > [!NOTE] 전역 객체 참조
-> 만약 항상 [[전역 객체]]를 참조하고 싶다면 `globalThis` 키워드를 통해 참조할 수 있다.
+> 만약 항상 [[전역 객체 (Global Object)]]를 참조하고 싶다면 `globalThis` 키워드를 통해 참조할 수 있다.
 
 # this의 참조값
 
 ## 1. 전역 컨텍스트
 
-전역 컨텍스트에서 `this`는 항상 [[전역 객체]]를 참조한다.
+전역 컨텍스트에서 `this`는 항상 [[전역 객체 (Global Object)]]를 참조한다.
 
 ```javascript
 console.log(this === globalThis); // true
 ```
 
-## 2. 함수 컨텍스트
+## 2. 일반 함수
 
-함수 컨텍스트에서 `this`는 호출 방식에 따라 변경된다.
+일반 함수 컨텍스트에서 `this`는 호출 방식에 따라 변경된다.
 
-### 비엄격 모드
+### 2-1. 비엄격 모드
 
-일반 함수에서 호출하는 `this`는 [[전역 객체]]를 참조한다.
+일반 함수에서 호출하는 `this`는 [[전역 객체 (Global Object)]]를 참조한다.
 
 ```javascript
 function call() {
@@ -31,13 +31,27 @@ function call() {
 call(); // true
 ```
 
+### 2-2. 엄격 모드
 
-### 엄격 모드
-
-[[엄격 모드 (Strict Mode)]]일 경우 비엄격 모드와 다르게 일반 함수 호출에서 `this`를 [[전역 객체]]로 바인딩 하지 않는다.
+[[엄격 모드 (Strict Mode)]]일 경우 비엄격 모드와 다르게 일반 함수 호출에서 `this`를 [[전역 객체 (Global Object)]]로 바인딩 하지 않는다.
 
 ECMAScript 명세에 따르면,
 
-1. `this` 값이 `null` 또는 `undefined` 일 경우 비엄격 모드에서는 [[전역 객체]]를 바인딩한다. 만약 [[엄격 모드 (Strict Mode)]]라면 바인딩하지 않는다.
-2. `this` 값이 [[원시 자료형 (Primitive)]]일 경우
+1. `this` 값이 `null` 또는 `undefined` 일 경우, 비엄격 모드에서는 [[전역 객체 (Global Object)]]를 바인딩한다. 만약 [[엄격 모드 (Strict Mode)]]라면 바인딩하지 않는다.
+2. `this` 값이 [[원시 자료형 (Primitive)]]일 경우, 비엄격 모드에서는 래퍼 클래스로 `autoboxing`을 수행한다. 만약 [[엄격 모드 (Strict Mode)]]라면 수행하지 않는다. (`this`가 [[원시 자료형 (Primitive)]]을 참조할 수 있다.)
+
+1번 명세에 따라 [[this 바인딩]]된 값을 그대로 유지한다.
+
+```javascript
+function call() {
+    "use strict";
+    console.log(this);
+}
+
+call(); // undefined
+```
+
+## 3. 화살표 함수
+
+[[화살표 함수 (Arrow Function)]] 컨텍스트 내부의 `this`는 **항상 생성 시점의 `this`를 참조**한다.
 
