@@ -90,5 +90,25 @@ delete Object.prototype; // Uncaught TypeError: Cannot delete property 'prototyp
 
 ## 4. 중복된 파라미터 이름 사용 예외
 
+함수 파라미터로 중복된 파라미터 이름을 사용할 경우 예외를 발생시킨다.
+
+```javascript
+function sum(a, a, c) {
+  "use strict";
+  return a + b + c; // Uncaught SyntaxError: Duplicate parameter name not allowed in this context
+}
+```
 
 
+## 5. 8진수 구문 사용 예외
+
+대부분의 브라우저에서는 `0644 === 420` 와 `"\045" === "%"` 와 같은 8진수 구문을 지원한다. 일반적으로 숫자 가장 앞에 `0`을 붙여 지원하는데, 이러한 방식이 개발자가 의도한데로 동작하지 않을 수 있다. 예를 들어,
+
+```javascript
+const sum =
+	001 +
+	010 +
+	100;
+
+console.log(sum); // 109
+```
