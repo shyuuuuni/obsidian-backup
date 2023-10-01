@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 333.51103591918945
   },
   "right": {
     "id": "8c16268d0a6dbfc3",
@@ -157,8 +157,12 @@
   },
   "active": "dbd7bf6bf2469c25",
   "lastOpenFiles": [
-    "JavaScript/객체/전역 객체.md",
+    "JavaScript/타입/원시 자료형 (Primitive).md",
     "JavaScript/this/this.md",
+    "JavaScript/타입",
+    "JavaScript/엄격 모드 (Strict Mode)/엄격 모드 (Strict Mode).md",
+    "JavaScript/엄격 모드 (Strict Mode)",
+    "JavaScript/객체/전역 객체.md",
     "JavaScript/객체",
     "Calendar/1. Daily/2023-10-01.md",
     "README.md",
@@ -187,8 +191,6 @@
     "Calendar/2. Weekly",
     "Calendar/1. Daily",
     "Calendar/1. Daily.md",
-    "Calendar/3. Monthly",
-    "Calendar/1. Daily",
-    "Calendar/2. Weekly"
+    "Calendar/3. Monthly"
   ]
 }

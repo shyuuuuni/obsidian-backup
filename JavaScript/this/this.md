@@ -19,7 +19,25 @@ console.log(this === globalThis); // true
 
 함수 컨텍스트에서 `this`는 호출 방식에 따라 변경된다.
 
-일반 함수에서 호출하는 `this`는 
+### 비엄격 모드
+
+일반 함수에서 호출하는 `this`는 [[전역 객체]]를 참조한다.
+
+```javascript
+function call() {
+	console.log(this === globalThis);
+}
+
+call(); // true
+```
 
 
+### 엄격 모드
+
+[[엄격 모드 (Strict Mode)]]일 경우 비엄격 모드와 다르게 일반 함수 호출에서 `this`를 [[전역 객체]]로 바인딩 하지 않는다.
+
+ECMAScript 명세에 따르면,
+
+1. `this` 값이 `null` 또는 `undefined` 일 경우 비엄격 모드에서는 [[전역 객체]]를 바인딩한다. 만약 [[엄격 모드 (Strict Mode)]]라면 바인딩하지 않는다.
+2. `this` 값이 [[원시 자료형 (Primitive)]]일 경우
 
