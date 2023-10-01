@@ -17,7 +17,7 @@ console.log(this === globalThis); // true
 
 ## 2. 일반 함수
 
-일반 함수 컨텍스트에서 `this`는 호출 방식에 따라 변경된다.
+일반 함수 컨텍스트에서 `this`는 호출 시 값이 결정된다. 만약 함수 내 `this`의 값을 설정하고 싶다면 [[this 바인딩]] 메소드를 사용할 수 있다.
 
 ### 2-1. 비엄격 모드
 
@@ -54,4 +54,23 @@ call(); // undefined
 ## 3. 화살표 함수
 
 [[화살표 함수 (Arrow Function)]] 컨텍스트 내부의 `this`는 **항상 생성 시점의 `this`를 참조**한다.
+
+```javascript
+const cat = {
+  name: 'meow',
+  foo1: function() {
+	// foo2는 foo1 함수 내부에서 선언되어 있음
+	// foo1은 객체 메소드임으로 this는 cat 객체를 참조함
+	// foo2는 선언 시점에서 foo1 컨텍스트의 this인 cat 객체를 참조함
+    const foo2 = () => {
+      console.log(this.name);
+    }
+    foo2();
+  }
+};
+
+cat.foo1();	// meow
+```
+
+## 4. 객체 메소드
 
