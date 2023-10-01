@@ -157,12 +157,15 @@
   },
   "active": "dbd7bf6bf2469c25",
   "lastOpenFiles": [
+    "JavaScript/객체/전역 객체.md",
+    "JavaScript/this/this.md",
+    "JavaScript/객체",
+    "Calendar/1. Daily/2023-10-01.md",
     "README.md",
     "Calendar/1. Daily/2023-09-23.md",
     "JavaScript/this/this와 이벤트 핸들러.md",
     "JavaScript/this/this와 객체.md",
     "JavaScript/this/this와 화살표 함수.md",
-    "JavaScript/this/this.md",
     "JavaScript/this/this 바인딩.md",
     "JavaScript/this",
     "JavaScript/이벤트 (Event)/이벤트 (Event).md",
@@ -186,7 +189,6 @@
     "Calendar/1. Daily.md",
     "Calendar/3. Monthly",
     "Calendar/1. Daily",
-    "Calendar/2. Weekly",
-    "Calendar"
+    "Calendar/2. Weekly"
   ]
 }
