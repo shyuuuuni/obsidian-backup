@@ -74,3 +74,34 @@ cat.foo1();	// meow
 
 ## 4. 객체 메소드
 
+함수를 객체의 메소드로 호출하면 `this`는 호출한 객체를 참조한다.
+
+```javascript
+const obj = {
+  prop: 37,
+  // f는 객체 메소드로 호출하면 obj를 참조한다.
+  f: function () {
+    return this.prop;
+  },
+};
+
+console.log(obj.f()); // 37
+```
+
+주의해야 할 점은 메소드 함수가 정의된 방법이나 위치가 아닌, 메소드로써 호출되는 것이 중요하다는 점이다. 예를 들어,
+
+```javascript
+const obj = { prop: 37 };
+
+function independent() {
+  return this.prop;
+}
+
+obj.f = independent;
+
+console.log(independent()); // undefined
+console.log(obj.f()); // 37
+```
+
+위와 같이 `independent` 함수를 일반 함수로 호출했을 경우에는 `undefined`를 참조하지만, 객체 메소드로 등록하고, 메소드를 호출했을 경우에는 호출한 객체를 참조한다.
+
