@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
+                "file": "JavaScript/엄격 모드 (Strict Mode)/엄격 모드 (Strict Mode).md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "6b3e812a89d3ff43",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
               }
             }
           }
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
+                "file": "JavaScript/엄격 모드 (Strict Mode)/엄격 모드 (Strict Mode).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
+                "file": "JavaScript/엄격 모드 (Strict Mode)/엄격 모드 (Strict Mode).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/객체 (Object)/전역 객체 (Global Object).md"
+                "file": "JavaScript/엄격 모드 (Strict Mode)/엄격 모드 (Strict Mode).md"
               }
             }
           },
@@ -158,6 +168,8 @@
   "active": "dbd7bf6bf2469c25",
   "lastOpenFiles": [
     "Calendar/1. Daily/2023-10-01.md",
+    "Calendar/3. Monthly/2023-09.md",
+    "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
     "JavaScript/this/this 바인딩 메소드.md",
     "JavaScript/this/this.md",
     "JavaScript/this/this와 객체.md",
@@ -169,7 +181,6 @@
     "JavaScript/타입",
     "JavaScript/엄격 모드 (Strict Mode)/엄격 모드 (Strict Mode).md",
     "JavaScript/엄격 모드 (Strict Mode)",
-    "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
     "JavaScript/객체 (Object)",
     "README.md",
     "Calendar/1. Daily/2023-09-23.md",
@@ -187,7 +198,6 @@
     "JavaScript/Storage API.md",
     "Calendar/2. Weekly/2023-W38.md",
     "2023-09-20.md",
-    "Calendar/3. Monthly/2023-09.md",
     "Calendar/1. Daily/2023-09-21.md",
     "Calendar/3. Monthly",
     "Calendar/2. Weekly",

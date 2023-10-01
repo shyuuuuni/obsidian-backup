@@ -20,5 +20,20 @@ const button = window.document.getElementById('btn');
 
 위와 같이 브라우저 환경에서 전역 객체인 `window` 객체의 프로퍼티로 `document` 객체가 등록되어 있고, 이를 명시하지 않아도 어디서든 참조할 수 있기 때문이다.
 
-# 전역 객체의 속성
+# 전역 변수 추가
 
+전역 스코프에서 `var` 키워드로 변수를 선언할 경우 전역 객체의 프로퍼티로 등록된다.
+
+```javascript
+var v = 5;
+
+console.log(window.v); // 5
+```
+
+주의해야 할 점은 `var` 키워드가 아닌 `let` 또는 `const` 키워드로 변수를 선언했을 경우에는 등록되지 않는다.
+
+```javascript
+let v = 5;
+
+console.log(window.v); // undefined
+```
