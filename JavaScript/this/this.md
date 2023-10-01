@@ -17,7 +17,7 @@ console.log(this === globalThis); // true
 
 ## 2. 일반 함수
 
-일반 함수 컨텍스트에서 `this`는 호출 시 값이 결정된다. 만약 함수 내 `this`의 값을 설정하고 싶다면 [[this 바인딩]] 메소드를 사용할 수 있다.
+일반 함수 컨텍스트에서 `this`는 호출 시 값이 결정된다. 만약 함수 내 `this`의 값을 설정하고 싶다면 [[this 바인딩 메소드]] 메소드를 사용할 수 있다.
 
 ### 2-1. 비엄격 모드
 
@@ -40,7 +40,7 @@ ECMAScript 명세에 따르면,
 1. `this` 값이 `null` 또는 `undefined` 일 경우, 비엄격 모드에서는 [[전역 객체 (Global Object)]]를 바인딩한다. 만약 [[엄격 모드 (Strict Mode)]]라면 바인딩하지 않는다.
 2. `this` 값이 [[원시 자료형 (Primitive)]]일 경우, 비엄격 모드에서는 래퍼 클래스로 `autoboxing`을 수행한다. 만약 [[엄격 모드 (Strict Mode)]]라면 수행하지 않는다. (`this`가 [[원시 자료형 (Primitive)]]을 참조할 수 있다.)
 
-1번 명세에 따라 [[this 바인딩]]된 값을 그대로 유지한다.
+1번 명세에 따라 [[this 바인딩 메소드]] 등으로 바인딩 된 값을 그대로 유지한다.
 
 ```javascript
 function call() {
@@ -105,3 +105,32 @@ console.log(obj.f()); // 37
 
 위와 같이 `independent` 함수를 일반 함수로 호출했을 경우에는 `undefined`를 참조하지만, 객체 메소드로 등록하고, 메소드를 호출했을 경우에는 호출한 객체를 참조한다.
 
+반대로 객체의 메소드로 선언되더라도, 메소드 호출이 아닌 경우에는 호출한 객체를 참조하지 않는다. 예를 들어,
+
+```javascript
+const obj = {
+  prop: 37,
+  // f는 객체 메소드로 호출하면 obj를 참조한다.
+  f: function () {
+    return this.prop;
+  },
+};
+
+const func = obj.f;
+
+console.log(func()); // undefined
+```
+
+## 이벤트 핸들러
+
+`element.onclick` 과 같은 이벤트 핸들러 프로퍼티 또는 `addEventListener` 함수의 파라미터로 등록하는 [[이벤트 핸들러 (Event Handler)]] 함수에서 `this`는 특별한 값으로 바인딩된다.
+
+두 경우 모두 `this`는 이벤트 핸들러가 바인딩된 DOM 엘리먼트를 가리킨다.
+
+```javascript
+function f() {
+	console.log(this);
+}
+
+document.getElementById('')
+```
