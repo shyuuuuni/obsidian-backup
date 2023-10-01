@@ -121,16 +121,34 @@ const func = obj.f;
 console.log(func()); // undefined
 ```
 
-## 이벤트 핸들러
+## 5. 이벤트 핸들러
 
 `element.onclick` 과 같은 이벤트 핸들러 프로퍼티 또는 `addEventListener` 함수의 파라미터로 등록하는 [[이벤트 핸들러 (Event Handler)]] 함수에서 `this`는 특별한 값으로 바인딩된다.
 
-두 경우 모두 `this`는 이벤트 핸들러가 바인딩된 DOM 엘리먼트를 가리킨다.
+두 경우 모두 `this`는 이벤트 핸들러가 바인딩된 DOM 엘리먼트를 가리킨다. 즉, 이벤트 핸들러에서 `this` 값은 이벤트 객체의 `currentTarget` 프로퍼티가 참조하는 DOM 엘리먼트와 항상 동일한 값을 참조한다.
 
 ```javascript
 function f() {
 	console.log(this);
 }
 
-document.getElementById('')
+// 클릭 시: <input type="button" id="btn"></input>
+document.getElementById('btn').onclick = f;
+
+// 또는 (같은 결과)
+document.getElementById('btn').addEventListener('click', f);
+```
+
+## 6. 생성자 함수
+
+`new` 키워드로 호출하는 생성자 함수를 사용했을 경우 `this`는 생성된 객체를 참조한다.
+
+```javascript
+function Person(name) {
+    this.name = name;
+}
+
+const someone = new Person('Lee');
+
+console.log(someone.name) // Lee
 ```

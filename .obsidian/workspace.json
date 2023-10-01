@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/this/this.md",
+                "file": "JavaScript/this/this 바인딩 메소드.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/this/this.md",
+                "file": "JavaScript/this/this 바인딩 메소드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/this/this.md",
+                "file": "JavaScript/this/this 바인딩 메소드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/this/this.md"
+                "file": "JavaScript/this/this 바인딩 메소드.md"
               }
             }
           },
@@ -155,11 +155,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "325ff9994de49610",
+  "active": "dbd7bf6bf2469c25",
   "lastOpenFiles": [
+    "JavaScript/this/this.md",
     "JavaScript/this/this와 화살표 함수.md",
     "JavaScript/이벤트 (Event)/이벤트 핸들러 (Event Handler).md",
-    "JavaScript/this/this.md",
     "JavaScript/함수 (Function)/화살표 함수 (Arrow Function).md",
     "JavaScript/함수 (Function)",
     "JavaScript/타입/원시 자료형 (Primitive).md",
