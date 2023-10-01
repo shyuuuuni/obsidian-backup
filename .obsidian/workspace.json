@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/this/this 바인딩 메소드.md",
+                "file": "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/this/this 바인딩 메소드.md",
+                "file": "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/this/this 바인딩 메소드.md",
+                "file": "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/this/this 바인딩 메소드.md"
+                "file": "JavaScript/객체 (Object)/전역 객체 (Global Object).md"
               }
             }
           },
@@ -157,7 +157,10 @@
   },
   "active": "dbd7bf6bf2469c25",
   "lastOpenFiles": [
+    "Calendar/1. Daily/2023-10-01.md",
+    "JavaScript/this/this 바인딩 메소드.md",
     "JavaScript/this/this.md",
+    "JavaScript/this/this와 객체.md",
     "JavaScript/this/this와 화살표 함수.md",
     "JavaScript/이벤트 (Event)/이벤트 핸들러 (Event Handler).md",
     "JavaScript/함수 (Function)/화살표 함수 (Arrow Function).md",
@@ -168,12 +171,9 @@
     "JavaScript/엄격 모드 (Strict Mode)",
     "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
     "JavaScript/객체 (Object)",
-    "Calendar/1. Daily/2023-10-01.md",
     "README.md",
     "Calendar/1. Daily/2023-09-23.md",
     "JavaScript/this/this와 이벤트 핸들러.md",
-    "JavaScript/this/this와 객체.md",
-    "JavaScript/this/this 바인딩 메소드.md",
     "JavaScript/this",
     "JavaScript/이벤트 (Event)/이벤트 (Event).md",
     "JavaScript/이벤트 (Event)/이벤트 위임 (Event Delegation).md",
