@@ -155,7 +155,19 @@ obj.arrow(); // undefined
 var func = () => ({ foo: 1 });
 ```
 
-## 3. 
+## 3. 이벤트 핸들러로 사용 시
+
+일반 함수로 [[이벤트 핸들러 (Event Handler)]]를 작성할 경우 `this`는 이벤트 핸들러가 바인딩된 `DOM` 엘리먼트를 참조한다.
+
+하지만 화살표 함수는 `this`를 가지고 있지 않기 때문에 의도하지 않는 결과가 발생할 수 있다.
+
+```javascript
+const box = document.querySelector('.box');
+
+box.addEventListener("click", () => {
+  this.classList.toggle("opening"); // this: window
+})
+```
 
 # 성능 차이
 
