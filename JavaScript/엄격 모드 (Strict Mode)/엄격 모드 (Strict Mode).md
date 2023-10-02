@@ -79,6 +79,14 @@ Object.defineProperty(obj1, "x", { value: 42, writable: false });
 obj1.x = 9; // Uncaught TypeError: Cannot assign to read only property 'x' of object
 ```
 
+위의 예시 이외에도 `getter-only` 프로퍼티로 선언된 프로퍼티에도 접근하여 할당할 수 없다.
+
+```javascript
+"use strict";
+const obj2 = { get x() { return 17; } };
+obj2.x = 5; // Uncaught TypeError: Cannot set property x of #<Object> which has only a getter
+```
+
 ## 3. 삭제할 수 없는 프로퍼티 삭제 예외
 
 객체의 `configurable` 프로퍼티가 `false` 인 등, 삭제할 수 없는 프로퍼티를 삭제하는 경우 예외를 발생시킨다.
