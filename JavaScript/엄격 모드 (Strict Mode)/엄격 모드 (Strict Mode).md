@@ -255,6 +255,9 @@ var f = new Function("arguments", "'use strict'; return 17;");
 
 ## 11. 함수 선언 제한
 
+> [!WARNING] 확인 필요
+> [mdn](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Strict_mode#%EC%97%84%EA%B2%A9%ED%95%9C_%EB%AA%A8%EB%93%9C_%EB%B3%80%EA%B2%BD)에서 소개하는 내용으로는 예외를 발생시킨다 되어 있지만, 실제 실행 시 성공적으로 작동된다.
+
 엄격 모드에서는 함수 선언을 스크립트의 최상위 스코프 또는 함수의 최상위 스코프에서만 할 수 있도록 제한한다.
 
 ```javascript
@@ -272,5 +275,63 @@ for (var i = 0; i < 5; i++) {
 function baz() {
   // kosher
   function eit() {} // also kosher
+}
+```
+
+## 12. arguments 사용 제한
+
+### 12-1. arguments alias 제한
+
+비엄격 모드에서는 함수의 파라미터로 전달되는 배열인 `arguments`와 파라미터가 연결되어 있는 형태로 작동한다.
+
+```javascript
+function x(a) {
+    a = 1; // a = 1, arugments[0] = 1
+    console.log(a, arguments[0]); // 1 1
+}
+x(2);
+```
+
+엄격 모드에서는 `arguments`에 대한 `alias`를 제한한다.
+
+```javascript
+function x(a) {
+    "use strict";
+    a = 1; // a = 1
+    console.log(a, arguments[0]); // 1 2
+}
+x(2);
+```
+
+### 12-2. arguments.callee 제한
+
+비엄격 모드에서는 `arguments`를 사용하는 함수를 의미하는 `callee` 프로퍼티에 접근이 가능하다.
+
+```javascript
+function hello() {
+    console.log(arguments.callee); // function hello() ...
+};
+hello();
+```
+
+엄격 모드에서는 이러한 접근이 불가능하다.
+
+```javascript
+function hello() {
+    "use strict";
+    console.log(arguments.callee); // Uncaught TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+};
+hello();
+```
+
+## 13. 함수의 caller, callee, arguments 프로퍼티 접근 제한
+
+`arguments`와 비슷하게, 엄격 모드에서는 함수의 `caller`, `callee`, `arguments` 프로퍼티 접근이 제한된다.
+
+```javascript
+function restricted() {
+  "use strict";
+  restricted.caller; // Uncaught TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+  restricted.arguments; // Uncaught TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
 }
 ```
