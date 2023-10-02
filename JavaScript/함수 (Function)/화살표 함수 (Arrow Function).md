@@ -15,7 +15,9 @@ console.log(sum(1, 2)); // 3
 
 # 특징
 
-## this
+## 1. this
+
+### 1-1. 렉시컬 스코프 참조
 
 일반 함수는 **함수가 어떻게 호출되는지에 따라서 `this`가 바인딩** 되었다. 예를 들어,
 
@@ -46,13 +48,57 @@ function Person() {
 	this.age = 0;
 
 	setInterval(() => {
-		// this : 
+		// this : 생성된 Person 인스턴스 객체
 		this.age++;
 	}, 1000);
 }
 ```
 
+### 1-2. this 바인드 메소드
 
+화살표 함수에 `call`, `bind`, `apply`와 같이 명시적으로 `this`를 바인딩하는 메소드를 사용하는 경우 바인딩되지 않는다.
+
+```javascript
+function normal(a, b) {
+	console.log(this, a, b);
+}
+const arrow = (a, b) => {
+	console.log(this, a, b);
+}
+
+normal.call('this', 1, 2); // String {'this'} 1 2
+arrow.call('this', 1, 2); // window 1 2
+```
+### 1-3. [[엄격 모드 (Strict Mode)]]를 사용했을 때 주의점
+
+엄격 모드를 사용하면 일반 함수의 경우 `this`가 `undefined`로 바인딩된다. 하지만 화살표 함수에서는 이를 무시한다.
+
+```javascript
+var f = () => {
+	"use strict";
+	console.log(this); // 전역 객체
+}
+```
+
+## 2. arguments 키워드
+
+화살표 함수는 `arguments` 를 자체적으로 바인딩하지 않는다.
+
+```javascript
+function normal(a, b) {
+	console.log(arguments);
+}
+const arrow = (a, b) => {
+	console.log(arguments);
+}
+
+normal(1, 2); // Arguments(2) [1, 2, callee: ƒ, Symbol(Symbol.iterator): ƒ]
+arrow(1, 2); // Uncaught ReferenceError: arguments is not defined
+```
+
+## 3. 생성자 함수로 사용 불가
+
+화살표 함수는 `new` 키워드와 함께 새
 
 # 성능 차이
 
