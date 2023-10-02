@@ -150,3 +150,44 @@ false.true = ""; // Uncaught TypeError: Cannot create property 'true' on boolean
 
 엄격 모드에서는 `with` 구문을 사용할 경우 예외를 발생시킨다.
 
+`with` 문은 다음에 나오는 객체를 스코프 체인에 추가한다. 예를 들어,
+
+```javascript
+var user = {
+    name: "unikys",
+    homepage: "unikys.tistory.com",
+    language: "Korean"
+}
+with (user) {
+    console.log(name === "unikys"); // 스코프 체인을 통해 user.name에 접근, true
+    console.log(homepage === "unikys.tistory.com"); // 스코프 체인을 통해 user.homepage에 접근, true
+    console.log(language === "Korean"); // 스코프 체인을 통해 user.language에 접근, true
+    language = "javascript"; // 스코프 체인을 통해 user.language에 접근 및 할당
+}
+console.log(user.language === "javascript"); // true
+```
+
+위와 같이 구문 내에서 특정 객체를 쉽게 접근할 수 있도록 도와준다.
+
+하지만 `with` 문을 사용해 변수에 접근하는 경우, 변수 접근이 모호해 질 수 있다. 예를 들어,
+
+```javascript
+var x = 17;
+with (obj) {
+  console.log(x); // x가 상위에 있는 변수인지, obj.x인지, 전역 변수인지 모호함
+}
+```
+
+위와 같은 상황을 발생시킬 수 있다.
+
+따라서 엄격 모드에서는 `with` 문 사용 시 구문 예외를 발생시킨다.
+
+```javascript
+"use strict";
+var x = 17;
+with (obj) {
+  console.log(x); // Uncaught SyntaxError: Strict mode code may not include a with statement
+}
+```
+
+## 8. 
