@@ -335,3 +335,21 @@ function restricted() {
   restricted.arguments; // Uncaught TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
 }
 ```
+
+## 14. this autoboxing 변경
+
+[[this]]에서 설명한데로, 엄격 모드를 사용하면 `this`의 값으로 [[원시 자료형 (Primitive)]]를 할당했을 경우 래퍼 클래스로 감싸지 않고 그대로 사용한다.
+
+```javascript
+"use strict";
+function fun() {
+  return this;
+}
+console.log(fun() === undefined); // true
+console.log(fun.call(2) === 2); // true
+console.log(fun.apply(null) === null); // true
+console.log(fun.call(undefined) === undefined); // true
+console.log(fun.bind(true)() === true); // true
+```
+
+또한 함수의 `this`값이 `undefined` 또는 `null`일 경우 해당 스크립트를 실행하고 있는 호스트 환경의 전역 변수(예: 브라우저-`window`)를 자동으로 바인딩하지 않는다.
