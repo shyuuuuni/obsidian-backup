@@ -98,7 +98,64 @@ arrow(1, 2); // Uncaught ReferenceError: arguments is not defined
 
 ## 3. 생성자 함수로 사용 불가
 
-화살표 함수는 `new` 키워드와 함께 새
+화살표 함수는 `new` 키워드와 함께 생성자 함수로 사용할 수 없다.
+
+```javascript
+var Foo = () => {};
+var foo = new Foo(); // Uncaught TypeError: Foo is not a constructor
+```
+
+## 4. prototype 프로퍼티 사용 불가
+
+화살표 함수는 `prototype` 프로퍼티를 가지고 있지 않는다.
+
+```javascript
+var Foo = () => {};
+console.log(Foo.prototype); // undefined
+```
+
+## 5. 제너레이터로 사용 불가
+
+화살표 함수는 제너레이터로 사용할 수 없다. 내부에 `yield` 키워드 또한 사용할 수 없다.
+
+```javascript
+const genArrowFunc = * () => {
+	yield 1;
+}; // SyntacError: Unexpected token '*'
+```
+
+# 사용 시 주의사항
+
+## 1. 메소드로 사용 시
+
+화살표 함수의 `this` 특징으로 인해 메소드로 사용 시 의도했던 동작을 하지 않을 수 있다. 일반 함수를 메소드로 호출할 경우 `this`는 호출한 객체를 참조하게 되는데, 이런 동작이 작동하지 않을 수 있다.
+
+```javascript
+const obj = {
+	value: 1,
+	normal() {
+		console.log(this.value); // this : obj
+	},
+	arrow: () => {
+		console.log(this.value); // this : window
+	}
+}
+
+obj.normal(); // 1
+obj.arrow(); // undefined
+```
+
+## 2. 객체 리터럴 반환 시
+
+화살표 함수를 간결하게 사용하기 위해 `params => {object:literal}` 와 같이 사용 할 경우 의도하지 않게 작동할 수 있다.
+
+객체 리터럴과 함수 본문이 차이가 발생하기 때문에, 객체 리터럴을 반환하기 위해서는 소괄호 `( ... )`로 감싸주어야 한다.
+
+```javascript
+var func = () => ({ foo: 1 });
+```
+
+## 3. 
 
 # 성능 차이
 
