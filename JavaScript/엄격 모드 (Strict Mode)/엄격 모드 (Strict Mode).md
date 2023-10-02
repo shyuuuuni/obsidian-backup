@@ -1,4 +1,4 @@
-엄격 모드를 사용하면 전체 스크립트 또는 코드 블록 내에서 몇가지 시멘틱 변경이 발생한다.
+[[ES2015 (ES6)]]에서 추가된 엄격 모드를 사용하면 전체 스크립트 또는 코드 블록 내에서 몇가지 시멘틱 변경이 발생한다.
 
 1. 조용하게 무시하던 에러를 throwing 한다.
 2. 자바스크립트 엔진의 최적화 작업을 어렵게 만드는 실수를 교정한다. 즉, 비엄격 모드의 동일한 동작의 코드보다 더 빠른 실행 속도를 가지도록 한다.
@@ -134,4 +134,19 @@ const sum =
 console.log(sum);
 ```
 
-## 6. 
+## 6.  [[원시 자료형 (Primitive)]] 프로퍼티 할당 예외
+
+비엄격 모드에서는 [[원시 자료형 (Primitive)]]에 대한 할당 작업이 발생하더라도 이를 무시했다.  엄격 모드에서는 이러한 할당 시 예외를 발생시킨다.
+
+```javascript
+"use strict";
+
+false.true = ""; // Uncaught TypeError: Cannot create property 'true' on boolean 'false'
+(14).sailing = "home"; // Uncaught TypeError: Cannot create property 'sailing' on number '14'
+"with".you = "far away"; // Uncaught TypeError: Cannot create property 'you' on string 'with
+```
+
+## 7. with 문 사용 예외
+
+엄격 모드에서는 `with` 구문을 사용할 경우 예외를 발생시킨다.
+
