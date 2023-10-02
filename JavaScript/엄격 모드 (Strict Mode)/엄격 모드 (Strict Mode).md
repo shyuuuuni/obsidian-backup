@@ -198,4 +198,21 @@ with (obj) {
 }
 ```
 
-## 8. 
+## 8. eval 문 사용 예외
+
+비엄격 모드의 `eval` 함수 내에서 선언한 변수를 함수 외부에서 접근할 수 있다.
+
+```javascript
+var evalX = eval("var x = 1;");
+console.log(x); // 1
+```
+
+엄격 모드를 사용하는 경우 `eval` 함수 내에서 선언한 변수를 외부에서 접근할 수 없다. 또한 `eval` 함수를 호출하는 스코프 내에서 엄격 모드를 의미하는 `"use strict";` 문이 선언되어 있다면 `eval` 함수 또한 엄격 모드로 실행된다.
+
+```javascript
+"use strict";
+var evalX = eval("var x = 1;");
+console.log(x); // ReferenceError: x is not defined
+```
+
+## 9. 
