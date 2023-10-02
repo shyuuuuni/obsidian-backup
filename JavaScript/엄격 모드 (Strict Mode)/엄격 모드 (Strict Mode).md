@@ -215,4 +215,62 @@ var evalX = eval("var x = 1;");
 console.log(x); // ReferenceError: x is not defined
 ```
 
-## 9. 
+## 9. 일반 키워드 `delete` 삭제 예외
+
+`delete`는 객체의 프로퍼티를 제거할 때 사용할 수 있다. 비엄격 모드에서는 이를 객체의 프로퍼티가 아닌 일반 키워드에 사용하더라도 별도의 예외가 발생하지 않는다. 하지만 엄격 모드에서는 일반 키워드 `delete` 시 예외를 발생시킨다.
+
+```javascript
+"use strict";
+
+var x;
+delete x; // Uncaught SyntaxError: Delete of an unqualified identifier in strict mode.
+```
+
+## 10. 변수명 제한
+
+### 10-1. eval, arguments 키워드 사용 제한
+
+엄격 모드에서는 특별한 작업을 담당하는 `eval`과 `arguments`를 키워드로 다루기 위해 올바른 상황이 아닌 경우 키워드로써 사용을 제한한다. 다음 예시는 모두 예외를 발생시킨다.
+
+```javascript
+"use strict";
+eval = 17;
+arguments++;
+++eval;
+var obj = { set p(arguments) {} };
+var eval;
+try {
+} catch (arguments) {}
+function x(eval) {}
+function arguments() {}
+var y = function eval() {};
+var f = new Function("arguments", "'use strict'; return 17;");
+```
+
+### 10-2. ECMAScript 이후 명세 키워드 사용 제한
+
+엄격 모드에서는 ECMAScript 이후 명세에서 사용할 예정이거나 가능성이 있는 키워드를 사용할 수 없도록 예외를 발생시킨다.
+
+- 대상 키워드: `implements`, `interface`, `let`, `package`, `private`, `protected`, `public`, `static`, `yield`
+
+## 11. 함수 선언 제한
+
+엄격 모드에서는 함수 선언을 스크립트의 최상위 스코프 또는 함수의 최상위 스코프에서만 할 수 있도록 제한한다.
+
+```javascript
+"use strict";
+if (true) {
+  function f() {} // !!! syntax error
+  f();
+}
+
+for (var i = 0; i < 5; i++) {
+  function f2() {} // !!! syntax error
+  f2();
+}
+
+function baz() {
+  // kosher
+  function eit() {} // also kosher
+}
+```
