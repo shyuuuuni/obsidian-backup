@@ -157,6 +157,7 @@
   },
   "active": "dbd7bf6bf2469c25",
   "lastOpenFiles": [
+    "Assets/동기-vs-비동기-1.png",
     "JavaScript/동기와 비동기 (Sync and Async)/비동기 패턴.md",
     "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
     "JavaScript/동기와 비동기 (Sync and Async)/Promise.md",
@@ -185,7 +186,6 @@
     "JavaScript/ECMAScript",
     "Calendar/3. Monthly/2023-09.md",
     "JavaScript/this/this와 객체.md",
-    "JavaScript/this/this와 화살표 함수.md",
     "JavaScript/함수 (Function)",
     "JavaScript/타입",
     "JavaScript/엄격 모드 (Strict Mode)",
