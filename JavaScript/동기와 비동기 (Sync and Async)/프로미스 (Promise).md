@@ -51,9 +51,15 @@ let promise = new Promise(function(resolve, reject) {
 
 1. 콜백 함수가 값을 반환한다면 해당 값을 결과값으로 하는 `fulfilled` 상태의 프로미스를 반환한다. 만약 값이 없다면 `undefined`를 값으로 반환한다.
 2. 오류가 발생한다면 그 오류를 값으로 하는 `rejected` 프로미스를 반환한다.
-3. 
+3. 콜백 함수가 이미 `settled` (`fulfilled` or `rejected`) 된 프로미스를 반환한다면, 해당 프로미스의 상태와 값을 가지는 프로미스를 반환한다.
+4. 콜백 함수가 아직 `pending` 상태의 프로미스를 반환한다면, 해당 프로미스의 평가가 완료된 후 그 상태와 값을 가지는 프로미스를 반환한다.
 
-## catch()
+`then`의 결과로 프로미스를 반환하기 때문에 다른 프로미스 처리 메소드와 함께 체이닝 할 수 있다.
+## catch(onRejected)
+
+- `onRejected`: 프로미스가 실패했을 때(`reject` 함수가 호출되었을 때) 그 결과값을 매개변수로 하는 함수로, 매개변수로 `reason`(프로미스가 실패한 이유를 담는 프로미스의 결과값)를 받는다.
+
+`catch` 는 항상 `pending` 상태의 `Promise`객체를 반환한다. 그리고 `onRejected`
 
 ## finally()
 
