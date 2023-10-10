@@ -59,7 +59,23 @@ let promise = new Promise(function(resolve, reject) {
 
 - `onRejected`: 프로미스가 실패했을 때(`reject` 함수가 호출되었을 때) 그 결과값을 매개변수로 하는 함수로, 매개변수로 `reason`(프로미스가 실패한 이유를 담는 프로미스의 결과값)를 받는다.
 
-`catch` 는 항상 `pending` 상태의 `Promise`객체를 반환한다. 그리고 `onRejected`
+`catch` 는 항상 `pending` 상태의 `Promise`객체를 반환한다. 그리고 반환하는 프로미스는 `onRejected` 함수에서 에러를 처리하거나 원본 프로미스 자체에서 `rejected` 되었을 경우 `rejected` 상태로 변경된다. 그 외의 경우에는 `fulfilled` 상태를 가진다.
+
+### 주의
+
+프로미스 내 비동기 호출 속에서 발생한 예외는 처리할 수 없다.
+
+```javascript
+const p2 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    throw new Error("Uncaught Exception!");
+  }, 1000);
+});
+
+p2.catch((e) => {
+  console.error(e); // This is never called
+});
+```
 
 ## finally()
 
