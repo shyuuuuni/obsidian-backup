@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/타입/참조 자료형 (Reference).md",
+                "file": "JavaScript/this/this.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/타입/참조 자료형 (Reference).md",
+                "file": "JavaScript/this/this.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/타입/참조 자료형 (Reference).md",
+                "file": "JavaScript/this/this.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/타입/참조 자료형 (Reference).md"
+                "file": "JavaScript/this/this.md"
               }
             }
           },
@@ -157,24 +157,25 @@
   },
   "active": "dbd7bf6bf2469c25",
   "lastOpenFiles": [
-    "JavaScript/타입/원시 자료형 (Primitive).md",
-    "JavaScript/타입/참조 자료형 (Reference).md",
-    "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
-    "Calendar/1. Daily/2023-10-02.md",
+    "JavaScript/this/this 바인딩 메소드.md",
     "JavaScript/함수 (Function)/화살표 함수 (Arrow Function).md",
+    "JavaScript/엄격 모드 (Strict Mode)/엄격 모드 (Strict Mode).md",
+    "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
+    "Calendar/1. Daily/2023-10-10.md",
+    "Calendar/1. Daily/2023-10-02.md",
+    "JavaScript/타입/참조 자료형 (Reference).md",
+    "JavaScript/타입/원시 자료형 (Primitive).md",
     "JavaScript/동기와 비동기 (Sync and Async)",
     "JavaScript/이벤트 (Event)/이벤트 캡처링 (Event Capturing).md",
     "JavaScript/이벤트 (Event)/이벤트 핸들러 (Event Handler).md",
     "JavaScript/이벤트 (Event)/이벤트 위임 (Event Delegation).md",
     "JavaScript/이벤트 (Event)/이벤트 버블링 (Event Bubbling).md",
     "JavaScript/이벤트 (Event)/이벤트 (Event).md",
-    "JavaScript/엄격 모드 (Strict Mode)/엄격 모드 (Strict Mode).md",
     "JavaScript/this/this.md",
     "JavaScript/ECMAScript/ES2015 (ES6).md",
     "JavaScript/무제 파일.canvas",
     "Calendar/1. Daily/2023-09-20.md",
     "Calendar/1. Daily/2023-10-01.md",
-    "JavaScript/this/this 바인딩 메소드.md",
     "JavaScript/ECMAScript",
     "Calendar/3. Monthly/2023-09.md",
     "JavaScript/this/this와 객체.md",
@@ -193,7 +194,6 @@
     "Assets",
     "JavaScript/Storage API.md",
     "Calendar/2. Weekly/2023-W38.md",
-    "2023-09-20.md",
     "Calendar/3. Monthly"
   ]
 }
