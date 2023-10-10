@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/비동기 패턴.md",
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/비동기 패턴.md",
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/비동기 패턴.md",
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/비동기 패턴.md"
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md"
               }
             }
           },
@@ -158,13 +158,13 @@
   "active": "dbd7bf6bf2469c25",
   "lastOpenFiles": [
     "Calendar/1. Daily/2023-10-10.md",
+    "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
+    "JavaScript/동기와 비동기 (Sync and Async)/비동기 패턴.md",
     "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md",
     "Assets/Pasted image 20231010173204.png",
     "Assets/논블로킹.png",
     "Assets/동기-vs-비동기.png",
     "Assets/블로킹.png",
-    "JavaScript/동기와 비동기 (Sync and Async)/비동기 패턴.md",
-    "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
     "JavaScript/동기와 비동기 (Sync and Async)/Promise.md",
     "JavaScript/동기와 비동기 (Sync and Async)/콜 스택 & 태스크 큐 (Call Stack & Task Queue).md",
     "JavaScript/동기와 비동기 (Sync and Async)/이벤트 루프 (Event Loop).md",
