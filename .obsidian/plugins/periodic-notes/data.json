@@ -5,20 +5,20 @@
   "daily": {
     "format": "",
     "template": "",
-    "folder": "Calendar/1. Daily",
+    "folder": "/",
     "enabled": true
   },
   "weekly": {
     "format": "",
     "template": "",
-    "folder": "Calendar/2. Weekly",
-    "enabled": true
+    "folder": "/",
+    "enabled": false
   },
   "monthly": {
     "format": "",
     "template": "",
-    "folder": "Calendar/3. Monthly",
-    "enabled": true
+    "folder": "/",
+    "enabled": false
   },
   "quarterly": {
     "format": "",
