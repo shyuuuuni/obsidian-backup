@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/2023-10/2023-10-18.md",
+                "file": "Projects/dda-bong/3. 유저 스토리.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/2023-10/2023-10-18.md",
+                "file": "Projects/dda-bong/3. 유저 스토리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calendar/2023-10/2023-10-18.md",
+                "file": "Projects/dda-bong/3. 유저 스토리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/2023-10/2023-10-18.md"
+                "file": "Projects/dda-bong/3. 유저 스토리.md"
               }
             }
           },
@@ -158,8 +157,9 @@
   },
   "active": "dbd7bf6bf2469c25",
   "lastOpenFiles": [
-    "Projects/dda-bong/1. 기획서.md",
     "Calendar/2023-10/2023-10-18.md",
+    "Projects/dda-bong/3. 유저 스토리.md",
+    "Projects/dda-bong/1. 기획서.md",
     "Calendar/2023-10/2023-10-10.md",
     "Calendar/2023-10/2023-10-02.md",
     "Calendar/2023-10/2023-10-01.md",
@@ -194,7 +194,6 @@
     "JavaScript/이벤트 (Event)/이벤트 핸들러 (Event Handler).md",
     "JavaScript/이벤트 (Event)/이벤트 위임 (Event Delegation).md",
     "JavaScript/이벤트 (Event)/이벤트 버블링 (Event Bubbling).md",
-    "JavaScript/이벤트 (Event)/이벤트 (Event).md",
     "JavaScript/무제 파일.canvas",
     "JavaScript/ECMAScript",
     "JavaScript/함수 (Function)",
