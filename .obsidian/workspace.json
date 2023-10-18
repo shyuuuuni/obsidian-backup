@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/dda-bong/3. 유저 스토리.md",
+                "file": "Projects/dda-bong/3. 기능 목록.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/dda-bong/3. 유저 스토리.md",
+                "file": "Projects/dda-bong/3. 기능 목록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/dda-bong/3. 유저 스토리.md",
+                "file": "Projects/dda-bong/3. 기능 목록.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/dda-bong/3. 유저 스토리.md"
+                "file": "Projects/dda-bong/3. 기능 목록.md"
               }
             }
           },
@@ -157,9 +157,10 @@
   },
   "active": "dbd7bf6bf2469c25",
   "lastOpenFiles": [
-    "Calendar/2023-10/2023-10-18.md",
-    "Projects/dda-bong/3. 유저 스토리.md",
     "Projects/dda-bong/1. 기획서.md",
+    "Projects/dda-bong/2. 기술스택.md",
+    "Projects/dda-bong/3. 기능 목록.md",
+    "Calendar/2023-10/2023-10-18.md",
     "Calendar/2023-10/2023-10-10.md",
     "Calendar/2023-10/2023-10-02.md",
     "Calendar/2023-10/2023-10-01.md",
@@ -167,7 +168,6 @@
     "Calendar/1. Daily",
     "Calendar/2. Weekly/2023-W38.md",
     "Calendar/2023-10",
-    "Projects/dda-bong/2. 기술스택.md",
     "Calendar/2023-09",
     "Projects/dda-bong",
     "JavaScript/동기와 비동기 (Sync and Async)/프로미스 (Promise).md",
