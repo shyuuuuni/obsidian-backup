@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/프로미스 (Promise).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/프로미스 (Promise).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/프로미스 (Promise).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md"
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/프로미스 (Promise).md"
               }
             }
           },
@@ -170,6 +170,7 @@
   },
   "active": "8d2480ef0d2349d9",
   "lastOpenFiles": [
+    "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
     "JavaScript/동기와 비동기 (Sync and Async)/콜 스택 & 태스크 큐 (Call Stack & Task Queue).md",
     "JavaScript/동기와 비동기 (Sync and Async)/이벤트 루프 (Event Loop).md",
     "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md",
@@ -191,7 +192,6 @@
     "Projects",
     "Assets/Pasted image 20231010173204.png",
     "Assets/프로미스-상태.png",
-    "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
     "JavaScript/동기와 비동기 (Sync and Async)/비동기 패턴.md",
     "Assets/논블로킹.png",
     "Assets/동기-vs-비동기.png",
