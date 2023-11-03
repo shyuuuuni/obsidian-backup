@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md",
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md",
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md",
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md"
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md"
               }
             }
           },
@@ -170,8 +170,10 @@
   },
   "active": "8d2480ef0d2349d9",
   "lastOpenFiles": [
-    "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
+    "JavaScript/동기와 비동기 (Sync and Async)/콜 스택 & 태스크 큐 (Call Stack & Task Queue).md",
+    "JavaScript/동기와 비동기 (Sync and Async)/이벤트 루프 (Event Loop).md",
     "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md",
+    "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
     "Projects/dda-bong/1. 기획서.md",
     "Projects/dda-bong/2. 기술스택.md",
     "Projects/dda-bong/3. 기능 목록.md",
@@ -194,8 +196,6 @@
     "Assets/논블로킹.png",
     "Assets/동기-vs-비동기.png",
     "Assets/블로킹.png",
-    "JavaScript/동기와 비동기 (Sync and Async)/콜 스택 & 태스크 큐 (Call Stack & Task Queue).md",
-    "JavaScript/동기와 비동기 (Sync and Async)/이벤트 루프 (Event Loop).md",
     "JavaScript/this/this.md",
     "JavaScript/this/this 바인딩 메소드.md",
     "JavaScript/함수 (Function)/화살표 함수 (Arrow Function).md",
