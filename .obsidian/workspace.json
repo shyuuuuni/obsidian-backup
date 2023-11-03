@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8d2480ef0d2349d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/dda-bong/3. 기능 목록.md",
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/dda-bong/3. 기능 목록.md",
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/dda-bong/3. 기능 목록.md"
+                "file": "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md"
               }
             }
           },
@@ -155,8 +168,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dbd7bf6bf2469c25",
+  "active": "8d2480ef0d2349d9",
   "lastOpenFiles": [
+    "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
+    "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md",
     "Projects/dda-bong/1. 기획서.md",
     "Projects/dda-bong/2. 기술스택.md",
     "Projects/dda-bong/3. 기능 목록.md",
@@ -172,7 +187,6 @@
     "Projects/dda-bong",
     "JavaScript/동기와 비동기 (Sync and Async)/프로미스 (Promise).md",
     "Projects",
-    "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md",
     "Assets/Pasted image 20231010173204.png",
     "Assets/프로미스-상태.png",
     "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
@@ -186,7 +200,6 @@
     "JavaScript/this/this 바인딩 메소드.md",
     "JavaScript/함수 (Function)/화살표 함수 (Arrow Function).md",
     "JavaScript/엄격 모드 (Strict Mode)/엄격 모드 (Strict Mode).md",
-    "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
     "JavaScript/타입/참조 자료형 (Reference).md",
     "JavaScript/타입/원시 자료형 (Primitive).md",
     "JavaScript/동기와 비동기 (Sync and Async)",
