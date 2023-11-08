@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "93a3497b2e467854",
+        "id": "b2528d1ea02437a6",
         "type": "tabs",
         "children": [
           {
-            "id": "dbd7bf6bf2469c25",
+            "id": "6d6439a65c6c484c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/dda-bong/3. 기능 목록.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d2480ef0d2349d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/프로미스 (Promise).md",
+                "file": "Docs/링크 목록.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/프로미스 (Promise).md",
+                "file": "Docs/링크 목록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/프로미스 (Promise).md",
+                "file": "Docs/링크 목록.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/동기와 비동기 (Sync and Async)/프로미스 (Promise).md"
+                "file": "Docs/링크 목록.md"
               }
             }
           },
@@ -168,8 +155,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d2480ef0d2349d9",
+  "active": "6d6439a65c6c484c",
   "lastOpenFiles": [
+    "README.md",
+    "Docs/링크 목록.md",
+    "Docs",
+    "JavaScript/동기와 비동기 (Sync and Async)/프로미스 (Promise).md",
     "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
     "JavaScript/동기와 비동기 (Sync and Async)/콜 스택 & 태스크 큐 (Call Stack & Task Queue).md",
     "JavaScript/동기와 비동기 (Sync and Async)/이벤트 루프 (Event Loop).md",
@@ -188,7 +179,6 @@
     "Calendar/2023-10",
     "Calendar/2023-09",
     "Projects/dda-bong",
-    "JavaScript/동기와 비동기 (Sync and Async)/프로미스 (Promise).md",
     "Projects",
     "Assets/Pasted image 20231010173204.png",
     "Assets/프로미스-상태.png",
@@ -205,13 +195,10 @@
     "JavaScript/동기와 비동기 (Sync and Async)",
     "JavaScript/이벤트 (Event)/이벤트 캡처링 (Event Capturing).md",
     "JavaScript/이벤트 (Event)/이벤트 핸들러 (Event Handler).md",
-    "JavaScript/이벤트 (Event)/이벤트 위임 (Event Delegation).md",
-    "JavaScript/이벤트 (Event)/이벤트 버블링 (Event Bubbling).md",
     "JavaScript/무제 파일.canvas",
     "JavaScript/ECMAScript",
     "JavaScript/함수 (Function)",
     "JavaScript/타입",
-    "JavaScript/엄격 모드 (Strict Mode)",
     "Assets/이벤트-버블링-1.png"
   ]
 }
