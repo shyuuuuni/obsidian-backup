@@ -1,7 +1,8 @@
 # 래퍼런스
 
-- 교보문고 ebook 구입
+- 교보문고 ebook
 - [코드 저장소](https://github.com/woowa-typescript/woowahan-typescript-with-react-example-code)
+- [[우아한형제들 타입스크립트 활용 예시]]
 
 # 정리 내용
 

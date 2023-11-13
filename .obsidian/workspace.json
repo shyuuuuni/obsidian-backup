@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/타입 스크립트 타입 시스템.md",
+                "file": "TypeScript/타입 확인.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript/타입 스크립트 타입 시스템.md",
+                "file": "TypeScript/타입 확인.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript/타입 스크립트 타입 시스템.md",
+                "file": "TypeScript/타입 확인.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,24 +137,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/타입 스크립트 타입 시스템.md"
+                "file": "TypeScript/타입 확인.md"
               }
-            }
-          },
-          {
-            "id": "594687bbeb013dcd",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,6 +163,8 @@
   "active": "6d6439a65c6c484c",
   "lastOpenFiles": [
     "Books/우아한 타입스크립트 with 리액트.md",
+    "TypeScript/타입 확인.md",
+    "어디에 둘지 모르겠어요/우아한형제들 타입스크립트 활용 예시.md",
     "TypeScript/타입 스크립트 타입 시스템.md",
     "TypeScript/동적 타이핑 (자바스크립트의 한계).md",
     "어디에 둘지 모르겠어요/웹사이트 vs 웹 애플리케이션.md",
@@ -206,8 +201,6 @@
     "Assets/논블로킹.png",
     "Assets/동기-vs-비동기.png",
     "Assets/블로킹.png",
-    "JavaScript/this/this 바인딩 메소드.md",
-    "JavaScript/함수 (Function)/화살표 함수 (Arrow Function).md",
     "JavaScript/동기와 비동기 (Sync and Async)",
     "JavaScript/무제 파일.canvas",
     "JavaScript/ECMAScript",
