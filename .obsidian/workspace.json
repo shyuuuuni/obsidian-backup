@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/타입스크립트 독자적 타입.md",
+                "file": "TypeScript/타입 조합.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "383b5433ae00a3d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/우아한 타입스크립트 with 리액트.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript/타입스크립트 독자적 타입.md",
+                "file": "TypeScript/타입 조합.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript/타입스크립트 독자적 타입.md",
+                "file": "TypeScript/타입 조합.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/타입스크립트 독자적 타입.md"
+                "file": "TypeScript/타입 조합.md"
               }
             }
           }
@@ -150,18 +162,19 @@
   },
   "active": "6d6439a65c6c484c",
   "lastOpenFiles": [
-    "Assets/타입스크립트의-타입-계층-구조.png",
-    "TypeScript/타입스크립트 독자적 타입.md",
-    "TypeScript/타입 스크립트 타입 시스템.md",
     "Books/우아한 타입스크립트 with 리액트.md",
-    "어디에 둘지 모르겠어요/객체 순회에 타입이 지정되지 않는 이유.md",
+    "TypeScript/타입 조합.md",
+    "TypeScript/타입스크립트 독자적 타입.md",
     "TypeScript/타입스크립트 typeof.md",
     "TypeScript/동적 타이핑 (자바스크립트의 한계).md",
+    "TypeScript/우아한 타입스크립트 with 리액트/우아한형제들 타입스크립트 활용 예시.md",
+    "Assets/타입스크립트의-타입-계층-구조.png",
+    "TypeScript/타입 스크립트 타입 시스템.md",
+    "어디에 둘지 모르겠어요/객체 순회에 타입이 지정되지 않는 이유.md",
     "TypeScript/우아한 타입스크립트 with 리액트/우아한형제들 type vs interface.md",
     "TypeScript/우아한 타입스크립트 with 리액트",
     "TypeScript/우아한 타입스크립트 with 리액트/우아한 형제들 Enum.md",
     "어디에 둘지 모르겠어요/웹사이트 vs 웹 애플리케이션.md",
-    "TypeScript/우아한 타입스크립트 with 리액트/우아한형제들 타입스크립트 활용 예시.md",
     "어디에 둘지 모르겠어요",
     "JavaScript/ECMAScript/ECMAScript 탄생 배경.md",
     "JavaScript/this/this.md",
