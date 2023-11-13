@@ -169,9 +169,9 @@
   },
   "active": "6d6439a65c6c484c",
   "lastOpenFiles": [
-    "TypeScript/동적 타이핑 (자바스크립트의 한계).md",
-    "TypeScript/타입 스크립트 타입 시스템.md",
     "Books/우아한 타입스크립트 with 리액트.md",
+    "TypeScript/타입 스크립트 타입 시스템.md",
+    "TypeScript/동적 타이핑 (자바스크립트의 한계).md",
     "어디에 둘지 모르겠어요/웹사이트 vs 웹 애플리케이션.md",
     "어디에 둘지 모르겠어요",
     "JavaScript/ECMAScript/ECMAScript 탄생 배경.md",
