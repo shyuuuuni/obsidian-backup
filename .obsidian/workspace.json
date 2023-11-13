@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/우아한 타입스크립트 with 리액트.md",
+                "file": "TypeScript/타입스크립트 독자적 타입.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/우아한 타입스크립트 with 리액트.md",
+                "file": "TypeScript/타입스크립트 독자적 타입.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/우아한 타입스크립트 with 리액트.md",
+                "file": "TypeScript/타입스크립트 독자적 타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/우아한 타입스크립트 with 리액트.md"
+                "file": "TypeScript/타입스크립트 독자적 타입.md"
               }
             }
           }
@@ -150,10 +150,12 @@
   },
   "active": "6d6439a65c6c484c",
   "lastOpenFiles": [
-    "어디에 둘지 모르겠어요/객체 순회에 타입이 지정되지 않는 이유.md",
-    "Books/우아한 타입스크립트 with 리액트.md",
-    "TypeScript/타입스크립트 typeof.md",
+    "Assets/타입스크립트의-타입-계층-구조.png",
+    "TypeScript/타입스크립트 독자적 타입.md",
     "TypeScript/타입 스크립트 타입 시스템.md",
+    "Books/우아한 타입스크립트 with 리액트.md",
+    "어디에 둘지 모르겠어요/객체 순회에 타입이 지정되지 않는 이유.md",
+    "TypeScript/타입스크립트 typeof.md",
     "TypeScript/동적 타이핑 (자바스크립트의 한계).md",
     "TypeScript/우아한 타입스크립트 with 리액트/우아한형제들 type vs interface.md",
     "TypeScript/우아한 타입스크립트 with 리액트",
@@ -178,7 +180,6 @@
     "Projects/dda-bong/3. 기능 목록.md",
     "Calendar/2023-10/2023-10-18.md",
     "Calendar/2023-10/2023-10-10.md",
-    "Calendar/2023-10/2023-10-02.md",
     "Calendar/1. Daily",
     "Calendar/2023-10",
     "Calendar/2023-09",
