@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/링크 목록.md",
+                "file": "Books/우아한 타입스크립트 with 리액트.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/링크 목록.md",
+                "file": "Books/우아한 타입스크립트 with 리액트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/링크 목록.md",
+                "file": "Books/우아한 타입스크립트 with 리액트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/링크 목록.md"
+                "file": "Books/우아한 타입스크립트 with 리액트.md"
               }
             }
           },
@@ -157,8 +157,10 @@
   },
   "active": "6d6439a65c6c484c",
   "lastOpenFiles": [
-    "README.md",
     "Docs/링크 목록.md",
+    "Books/우아한 타입스크립트 with 리액트.md",
+    "Books",
+    "README.md",
     "Docs",
     "JavaScript/동기와 비동기 (Sync and Async)/프로미스 (Promise).md",
     "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
@@ -194,11 +196,9 @@
     "JavaScript/타입/원시 자료형 (Primitive).md",
     "JavaScript/동기와 비동기 (Sync and Async)",
     "JavaScript/이벤트 (Event)/이벤트 캡처링 (Event Capturing).md",
-    "JavaScript/이벤트 (Event)/이벤트 핸들러 (Event Handler).md",
     "JavaScript/무제 파일.canvas",
     "JavaScript/ECMAScript",
     "JavaScript/함수 (Function)",
-    "JavaScript/타입",
     "Assets/이벤트-버블링-1.png"
   ]
 }
