@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/우아한 타입스크립트 with 리액트.md",
+                "file": "JavaScript/ECMAScript/탄생 배경.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/우아한 타입스크립트 with 리액트.md",
+                "file": "JavaScript/ECMAScript/탄생 배경.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/우아한 타입스크립트 with 리액트.md",
+                "file": "JavaScript/ECMAScript/탄생 배경.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/우아한 타입스크립트 with 리액트.md"
+                "file": "JavaScript/ECMAScript/탄생 배경.md"
               }
             }
           },
@@ -157,8 +157,10 @@
   },
   "active": "6d6439a65c6c484c",
   "lastOpenFiles": [
-    "Docs/링크 목록.md",
+    "JavaScript/this/this.md",
+    "JavaScript/ECMAScript/탄생 배경.md",
     "Books/우아한 타입스크립트 with 리액트.md",
+    "Docs/링크 목록.md",
     "Books",
     "README.md",
     "Docs",
@@ -188,14 +190,12 @@
     "Assets/논블로킹.png",
     "Assets/동기-vs-비동기.png",
     "Assets/블로킹.png",
-    "JavaScript/this/this.md",
     "JavaScript/this/this 바인딩 메소드.md",
     "JavaScript/함수 (Function)/화살표 함수 (Arrow Function).md",
     "JavaScript/엄격 모드 (Strict Mode)/엄격 모드 (Strict Mode).md",
     "JavaScript/타입/참조 자료형 (Reference).md",
     "JavaScript/타입/원시 자료형 (Primitive).md",
     "JavaScript/동기와 비동기 (Sync and Async)",
-    "JavaScript/이벤트 (Event)/이벤트 캡처링 (Event Capturing).md",
     "JavaScript/무제 파일.canvas",
     "JavaScript/ECMAScript",
     "JavaScript/함수 (Function)",
