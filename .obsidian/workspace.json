@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/제네릭 사용처.md",
+                "file": "TypeScript/타입 확장.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript/제네릭 사용처.md",
+                "file": "Books/우아한 타입스크립트 with 리액트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript/제네릭 사용처.md",
+                "file": "Books/우아한 타입스크립트 with 리액트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/제네릭 사용처.md"
+                "file": "Books/우아한 타입스크립트 with 리액트.md"
               }
             }
           },
@@ -168,11 +169,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6d6439a65c6c484c",
+  "active": "383b5433ae00a3d4",
   "lastOpenFiles": [
-    "TypeScript/타입 조합.md",
-    "TypeScript/제네릭 사용처.md",
+    "TypeScript/타입 확장.md",
+    "TypeScript/우아한 타입스크립트 with 리액트/제네릭 활용 예시.md",
     "Books/우아한 타입스크립트 with 리액트.md",
+    "TypeScript/제네릭 사용처.md",
+    "TypeScript/타입 조합.md",
     "TypeScript/타입스크립트 독자적 타입.md",
     "TypeScript/타입스크립트 typeof.md",
     "TypeScript/동적 타이핑 (자바스크립트의 한계).md",
@@ -199,8 +202,6 @@
     "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
     "Projects/dda-bong/1. 기획서.md",
     "Projects/dda-bong/2. 기술스택.md",
-    "Projects/dda-bong/3. 기능 목록.md",
-    "Calendar/2023-10/2023-10-18.md",
     "Calendar/1. Daily",
     "Calendar/2023-10",
     "Calendar/2023-09",
