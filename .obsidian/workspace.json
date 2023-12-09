@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/note-01.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/npm 최신 버전 설정.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/note-01.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/npm 최신 버전 설정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/note-01.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/npm 최신 버전 설정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/note-01.md"
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/npm 최신 버전 설정.md"
               }
             }
           },
@@ -171,8 +171,9 @@
   },
   "active": "383b5433ae00a3d4",
   "lastOpenFiles": [
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others/개별적으로 공부한 내용을 작성합니다..md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/note-01.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/npm 최신 버전 설정.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others/개별적으로 공부한 내용을 작성합니다..md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-05",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-04",
@@ -207,7 +208,6 @@
     "JavaScript/동기와 비동기 (Sync and Async)/콜 스택 & 태스크 큐 (Call Stack & Task Queue).md",
     "JavaScript/동기와 비동기 (Sync and Async)/이벤트 루프 (Event Loop).md",
     "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md",
-    "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
     "Assets/Pasted image 20231010173204.png",
     "Assets/프로미스-상태.png",
     "Assets/논블로킹.png",
