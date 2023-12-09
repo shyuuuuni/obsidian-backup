@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/우아한 타입스크립트 with 리액트.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others/개별적으로 공부한 내용을 작성합니다..md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/우아한 타입스크립트 with 리액트.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others/개별적으로 공부한 내용을 작성합니다..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/우아한 타입스크립트 with 리액트.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others/개별적으로 공부한 내용을 작성합니다..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/우아한 타입스크립트 with 리액트.md"
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others/개별적으로 공부한 내용을 작성합니다..md"
               }
             }
           },
@@ -171,9 +171,20 @@
   },
   "active": "383b5433ae00a3d4",
   "lastOpenFiles": [
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-05",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-04",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01",
+    "어디에 둘지 모르겠어요/웹사이트 vs 웹 애플리케이션.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others/개별적으로 공부한 내용을 작성합니다..md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기",
+    "Lectures",
+    "어디에 둘지 모르겠어요/객체 순회에 타입이 지정되지 않는 이유.md",
+    "Books/우아한 타입스크립트 with 리액트.md",
     "TypeScript/타입 확장.md",
     "TypeScript/우아한 타입스크립트 with 리액트/제네릭 활용 예시.md",
-    "Books/우아한 타입스크립트 with 리액트.md",
     "TypeScript/제네릭 사용처.md",
     "TypeScript/타입 조합.md",
     "TypeScript/타입스크립트 독자적 타입.md",
@@ -182,37 +193,26 @@
     "TypeScript/우아한 타입스크립트 with 리액트/우아한형제들 타입스크립트 활용 예시.md",
     "Assets/타입스크립트의-타입-계층-구조.png",
     "TypeScript/타입 스크립트 타입 시스템.md",
-    "어디에 둘지 모르겠어요/객체 순회에 타입이 지정되지 않는 이유.md",
     "TypeScript/우아한 타입스크립트 with 리액트/우아한형제들 type vs interface.md",
     "TypeScript/우아한 타입스크립트 with 리액트",
     "TypeScript/우아한 타입스크립트 with 리액트/우아한 형제들 Enum.md",
-    "어디에 둘지 모르겠어요/웹사이트 vs 웹 애플리케이션.md",
     "어디에 둘지 모르겠어요",
     "JavaScript/ECMAScript/ECMAScript 탄생 배경.md",
     "JavaScript/this/this.md",
     "Docs/링크 목록.md",
     "Books",
     "README.md",
-    "Docs",
     "JavaScript/동기와 비동기 (Sync and Async)/프로미스 (Promise).md",
     "JavaScript/동기와 비동기 (Sync and Async)/콜백 함수.md",
     "JavaScript/동기와 비동기 (Sync and Async)/콜 스택 & 태스크 큐 (Call Stack & Task Queue).md",
     "JavaScript/동기와 비동기 (Sync and Async)/이벤트 루프 (Event Loop).md",
     "JavaScript/동기와 비동기 (Sync and Async)/동기 vs 비동기.md",
     "JavaScript/객체 (Object)/전역 객체 (Global Object).md",
-    "Projects/dda-bong/1. 기획서.md",
-    "Projects/dda-bong/2. 기술스택.md",
-    "Calendar/1. Daily",
-    "Calendar/2023-10",
-    "Calendar/2023-09",
-    "Projects/dda-bong",
-    "Projects",
     "Assets/Pasted image 20231010173204.png",
     "Assets/프로미스-상태.png",
     "Assets/논블로킹.png",
     "Assets/동기-vs-비동기.png",
     "Assets/블로킹.png",
-    "JavaScript/동기와 비동기 (Sync and Async)",
     "JavaScript/무제 파일.canvas",
     "Assets/이벤트-버블링-1.png"
   ]
