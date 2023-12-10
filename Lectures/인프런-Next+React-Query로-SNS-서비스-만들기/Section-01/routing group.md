@@ -6,4 +6,7 @@
 
 ## routing group
 
-- 
+- `slug` 처럼 특수한 디렉토리 네이밍으로 처리 가능 - 소괄호 사용 `(그룹명)`
+- routing group은 URL 라우팅에 적용 X
+- routing group 별로 layout을 작성할 수 있음 - 로그인 된 레이아웃 / 로그인 전 레이아웃 등 표현 가능
+- 팁: grouping 하는 기준을 레이아웃으로 나누는게 좋다.
