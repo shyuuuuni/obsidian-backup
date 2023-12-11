@@ -30,3 +30,12 @@
 - 모든 라우팅에 걸리지 않으면 해당 컴포넌트를 보여줌
 - `src/not-found.tsx`에 작성
 
+## redirect
+
+특정 라우팅에서 다른 라우팅으로 전달할 때 next13 이후에서 쉽게 사용 가능
+
+## next Image
+
+img 태그가 아닌 Image 컴포넌트 사용
+
+nextjs에서 최적화 진행
