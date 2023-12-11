@@ -34,6 +34,21 @@
 
 특정 라우팅에서 다른 라우팅으로 전달할 때 next13 이후에서 쉽게 사용 가능
 
+- 단순히 redirect를 사용하면 인터셉트 라우트 사용 시 원하지 않은 결과 발생
+- 단순 redirect는 서버측 리다이렉트 = 주소창 입력(브라우저 입력) -> 클라이언트 라우팅인 인터셉팅 X
+
+### useRouter
+
+- "use client" 후 사용
+- 클라이언트 라우팅 사용 가능
+
+### router.push, router.replace
+
+A에서 router.method() 실행으로 B로 이동했을 때,
+
+- push : A를 히스토리 남김 -> B에서 뒤로가기하면 A로 도착 -> 다시 B로 이동
+- replace: A를 히스토리에 남기지 않음 -> B에서 뒤로가기하면 A 이전으로 도착
+
 ## next Image
 
 img 태그가 아닌 Image 컴포넌트 사용
