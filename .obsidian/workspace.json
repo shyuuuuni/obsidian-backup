@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/index.md",
+                "file": "Docs/링크 목록.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/index.md",
+                "file": "Docs/링크 목록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/index.md",
+                "file": "Docs/링크 목록.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/index.md"
+                "file": "Docs/링크 목록.md"
               }
             }
           },
@@ -171,10 +171,10 @@
   },
   "active": "383b5433ae00a3d4",
   "lastOpenFiles": [
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/index.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/server component, client component.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/intercepting routes.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/parallel routes.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/index.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/layout.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/routing group.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/npm 최신 버전 설정.md",
