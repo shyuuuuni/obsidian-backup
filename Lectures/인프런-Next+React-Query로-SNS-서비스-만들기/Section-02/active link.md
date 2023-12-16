@@ -10,6 +10,7 @@
 - next의 `useSelectedLayoutSegment` 훅 사용
 	- 기본적으로 라우팅의 가장 바깥을 가져옴
 	- 만약 /compose/tweet 과 같이 안쪽의 라우팅도 가져와야 하는 경우 `useSelectedLayoutSegments` 훅 사용
+- 이후 해당 세그먼트를 기준으로 분기 처리 ex) segment === 'user' -> 진하게 보이기
 
 ### 예시
 
