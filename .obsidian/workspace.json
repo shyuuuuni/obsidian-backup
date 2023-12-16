@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/00-index.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/00-index.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/00-index.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/00-index.md"
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link.md"
               }
             }
           },
@@ -169,10 +169,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "383b5433ae00a3d4",
+  "active": "325ff9994de49610",
   "lastOpenFiles": [
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/00-index.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
     "Docs/링크 목록.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/server component, client component.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/intercepting routes.md",
@@ -207,7 +208,6 @@
     "TypeScript/우아한 타입스크립트 with 리액트/우아한 형제들 Enum.md",
     "어디에 둘지 모르겠어요",
     "JavaScript/ECMAScript/ECMAScript 탄생 배경.md",
-    "JavaScript/this/this.md",
     "Assets/Pasted image 20231010173204.png",
     "Assets/프로미스-상태.png",
     "Assets/논블로킹.png",
