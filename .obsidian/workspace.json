@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/parallel routes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/parallel routes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/parallel routes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link.md"
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/parallel routes.md"
               }
             }
           },
@@ -169,8 +169,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "325ff9994de49610",
+  "active": "383b5433ae00a3d4",
   "lastOpenFiles": [
+    "TypeScript/타입 확장.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/00-index.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
@@ -193,7 +194,6 @@
     "Lectures",
     "어디에 둘지 모르겠어요/객체 순회에 타입이 지정되지 않는 이유.md",
     "Books/우아한 타입스크립트 with 리액트.md",
-    "TypeScript/타입 확장.md",
     "TypeScript/우아한 타입스크립트 with 리액트/제네릭 활용 예시.md",
     "TypeScript/제네릭 사용처.md",
     "TypeScript/타입 조합.md",
