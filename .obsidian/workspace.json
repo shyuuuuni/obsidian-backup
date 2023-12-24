@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/클라이언트컴포넌트+서버컴포넌트.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/클라이언트컴포넌트+서버컴포넌트.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/클라이언트컴포넌트+서버컴포넌트.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/클라이언트컴포넌트+서버컴포넌트.md"
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md"
               }
             }
           },
@@ -172,6 +172,7 @@
   "active": "383b5433ae00a3d4",
   "lastOpenFiles": [
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/usePathname.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/클라이언트컴포넌트+서버컴포넌트.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link (useSelectedLayoutSegment).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/00-index.md",
@@ -205,7 +206,6 @@
     "TypeScript/우아한 타입스크립트 with 리액트/우아한형제들 타입스크립트 활용 예시.md",
     "Assets/타입스크립트의-타입-계층-구조.png",
     "TypeScript/타입 스크립트 타입 시스템.md",
-    "TypeScript/우아한 타입스크립트 with 리액트/우아한형제들 type vs interface.md",
     "TypeScript/우아한 타입스크립트 with 리액트",
     "어디에 둘지 모르겠어요",
     "Assets/Pasted image 20231010173204.png",
