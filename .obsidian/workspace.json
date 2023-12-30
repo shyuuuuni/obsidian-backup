@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4d438424bd4315e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/redirect 주의점.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/redirect 주의점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/redirect 주의점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md"
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/redirect 주의점.md"
               }
             }
           },
@@ -169,20 +181,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "383b5433ae00a3d4",
+  "active": "4d438424bd4315e9",
   "lastOpenFiles": [
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/intercepting routes.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/layout.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/routing group.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/server component, client component.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/parallel routes.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/redirect 주의점.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/무제 폴더",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/usePathname.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/클라이언트컴포넌트+서버컴포넌트.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link (useSelectedLayoutSegment).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/00-index.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/intercepting routes.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/layout.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/npm 최신 버전 설정.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/routing group.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/parallel routes.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/server component, client component.md",
     "TypeScript/타입 확장.md",
     "Docs/링크 목록.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others/개별적으로 공부한 내용을 작성합니다..md",
@@ -205,9 +219,7 @@
     "TypeScript/동적 타이핑 (자바스크립트의 한계).md",
     "TypeScript/우아한 타입스크립트 with 리액트/우아한형제들 타입스크립트 활용 예시.md",
     "Assets/타입스크립트의-타입-계층-구조.png",
-    "TypeScript/타입 스크립트 타입 시스템.md",
     "TypeScript/우아한 타입스크립트 with 리액트",
-    "어디에 둘지 모르겠어요",
     "Assets/Pasted image 20231010173204.png",
     "Assets/프로미스-상태.png",
     "Assets/논블로킹.png",
