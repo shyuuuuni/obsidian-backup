@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md"
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md"
               }
             }
           },
@@ -183,20 +183,20 @@
   },
   "active": "4d438424bd4315e9",
   "lastOpenFiles": [
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link (useSelectedLayoutSegment).md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/intercepting routes.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/npm 최신 버전 설정.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/layout.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/routing group.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/parallel routes.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/server component, client component.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link (useSelectedLayoutSegment).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/클라이언트컴포넌트+서버컴포넌트.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/usePathname.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/redirect 주의점.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/intercepting routes.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/layout.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/routing group.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/server component, client component.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/parallel routes.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/무제 폴더",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/00-index.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/npm 최신 버전 설정.md",
     "TypeScript/타입 확장.md",
     "Docs/링크 목록.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others/개별적으로 공부한 내용을 작성합니다..md",
