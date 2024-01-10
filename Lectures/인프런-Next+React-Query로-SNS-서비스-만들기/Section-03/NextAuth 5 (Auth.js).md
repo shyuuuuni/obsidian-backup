@@ -133,4 +133,16 @@ export const {
 
 - 기본적으로 credentials로 넘겨오는 객체 안에는 username과 password가 포함되어 있음.
 - 이를 백엔드 서버 URL로 요청을 보내서 유효한 ID/PW인지 확인
-- 
+
+반환하는 값은 User 타입으로, 아래와 같은 타입을 만족해야 함.
+
+```ts
+export interface DefaultUser {  
+  id: string  
+  name?: string | null  
+  email?: string | null  
+  image?: string | null  
+}
+export interface User extends DefaultUser {}
+
+```
