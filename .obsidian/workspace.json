@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Catch-all route.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/NextAuth 5 (Auth.js).md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Catch-all route.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/NextAuth 5 (Auth.js).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Catch-all route.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/NextAuth 5 (Auth.js).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Catch-all route.md"
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/NextAuth 5 (Auth.js).md"
               }
             }
           },
@@ -183,8 +183,8 @@
   },
   "active": "4d438424bd4315e9",
   "lastOpenFiles": [
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/NextAuth 5 (Auth.js).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Catch-all route.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/NextAuth 5 (Auth.js).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/redirect 주의점.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/usePathname.md",

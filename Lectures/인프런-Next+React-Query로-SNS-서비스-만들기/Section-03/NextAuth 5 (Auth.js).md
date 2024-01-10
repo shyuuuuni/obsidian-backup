@@ -62,3 +62,24 @@ export const config = {
 ```
 
 - middleware.ts에서 middleware 함수를 NextAuth()를 호출한 auth.ts의 함수를 가져와서 사용함
+
+## route.ts
+
+- /src/api/auth/[...nextauth]/route.ts 파일 생성 (nextauth 이름은 상관 없긴 함.)
+- 해당 라우트는 클라이언트 서버에 대한 API 호출 담당
+- 기본 사용법 : 해당 파일에 `GET`, `POST` 함수를 export하여 사용
+- nextauth와 사용법 : 기존에 만든 auth.ts의 GET, POST를 가져와서 export -> nextauth가 이러한 처리를 모두 관리를 해 줌.
+
+	```tsx
+	export { GET, POST } from "@/auth";
+	```
+
+## 환경변수
+
+```.env
+# .env
+AUTH_URL=http://localhost:9090  : API URL
+AUTH_SECRET=mustkeepinsecret    : 비밀번호(유출X)
+```
+
+- AUTH_URL은 실제 
