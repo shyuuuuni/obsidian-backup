@@ -6,8 +6,10 @@
 
 ## 설치
 
+- app router에서 사용하기 위해서는 beta(5버전) 사용 필요.
+
 ```zsh
-npm install next-auth @auth/core
+npm install next-auth@beta @auth/core
 ```
 
 ## 미들웨어
@@ -87,6 +89,7 @@ AUTH_SECRET=mustkeepinsecret    : 비밀번호(유출X)
 ## Credential 인증 (ID/PW)
 
 ```ts
+import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 
 export const {
@@ -107,27 +110,28 @@ export const {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            id: credentials?.username,
-            password: credentials?.password,
+            id: credentials.username,
+            password: credentials.password,
           }),
         });
 
-        // if (!authResponse.ok) {
-        //   return null;
-        // }
-        //
-        // const user = await authResponse.json();
-        // console.log("user", user);
-        // return {
-        //   email: user.id,
-        //   name: user.nickname,
-        //   image: user.image,
-        //   ...user,
-        // };
+        if (!authResponse.ok) {
+          return null;
+        }
+
+        const user = await authResponse.json();
+        console.log("user", user);
+        return {
+          email: user.id,
+          name: user.nickname,
+          image: user.image,
+          ...user,
+        };
       },
-      }}),
+    }),
   ],
 });
+
 
 ```
 
