@@ -82,4 +82,55 @@ AUTH_URL=http://localhost:9090  : API URL
 AUTH_SECRET=mustkeepinsecret    : 비밀번호(유출X)
 ```
 
-- AUTH_URL은 실제 
+- AUTH_URL은 실제 백엔드 서버 URL로 설정해야 함.
+
+## Credential 인증 (ID/PW)
+
+```ts
+import CredentialsProvider from "next-auth/providers/credentials";
+
+export const {
+  handlers: { GET, POST },
+  auth,
+  signIn,
+} = NextAuth({
+  pages: {
+    signIn: "/i/flow/login",
+    newUser: "/i/flow/signup",
+  },
+  providers: [
+    CredentialsProvider({
+      async authorize(credentials) {
+        const authResponse = await fetch(`${process.env.AUTH_URL}/api/login`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            id: credentials?.username,
+            password: credentials?.password,
+          }),
+        });
+
+        // if (!authResponse.ok) {
+        //   return null;
+        // }
+        //
+        // const user = await authResponse.json();
+        // console.log("user", user);
+        // return {
+        //   email: user.id,
+        //   name: user.nickname,
+        //   image: user.image,
+        //   ...user,
+        // };
+      },
+      }}),
+  ],
+});
+
+```
+
+- 기본적으로 credentials로 넘겨오는 객체 안에는 username과 password가 포함되어 있음.
+- 이를 백엔드 서버 URL로 요청을 보내서 유효한 ID/PW인지 확인
+- 
