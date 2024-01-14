@@ -157,3 +157,46 @@ export interface DefaultUser {
 export interface User extends DefaultUser {}
 
 ```
+
+## 로그인 방법
+
+### 클라이언트 사이드
+
+- `next-auth/react` 의 `signIn` 함수를 사용해야 함
+- 첫번째에는 provider를 명시
+- 두번째에는 옵션을 명시
+	- redirect: 성공 시 페이지 이동을 의미하는데, 리액트 라우터를 통해 따로 하는것도 괜찮음
+
+```ts
+  const onSubmit: FormEventHandler<HTMLFormElement> = async (e) => {
+    e.preventDefault();
+    setMessage("");
+    try {
+      await signIn("credentials", {
+        username: id,
+        password,
+        redirect: false,
+      });
+    } catch (e) {
+      console.error(e);
+      setMessage("로그인에 실패했습니다.");
+    }
+  };
+```
+
+### 서버 사이드
+
+- 서버 사이드에서는 사용자가 만든 서버 액션 로그인 함수를 사용하면 된다.
+
+## 로그아웃 방법
+
+### 클라이언트 사이드
+
+- `next-auth/react`의 `signOut` 함수를 이용
+
+```ts
+const onLogout = async () => {  
+  await signOut({ redirect: false });  
+  router.replace("/");  
+};
+```
