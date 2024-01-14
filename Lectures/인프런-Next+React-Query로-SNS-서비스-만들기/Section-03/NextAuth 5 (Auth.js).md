@@ -86,9 +86,16 @@ AUTH_SECRET=mustkeepinsecret    : 비밀번호(유출X)
 
 - AUTH_URL은 실제 백엔드 서버 URL로 설정해야 함.
 
+## 회원가입/로그인 페이지 설정
+
+- 기본적으로 `http://localhost:3000/api/auth/signin` 와 같은 URL에 접속하면 기본으로 제공하는 로그인 창이 뜸
+	![[Pasted image 20240114224431.png]]
+- 수동으로 회원가입/로그인 페이지를 설정하고 싶다면 `auth.ts`의 NextAuth 옵션에 `pages` 프로퍼티를 선언하고, 그 안에 `signIn`, `newUser` 페이지를 추가
+
 ## Credential 인증 (ID/PW)
 
 ```ts
+// auth.ts
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 
