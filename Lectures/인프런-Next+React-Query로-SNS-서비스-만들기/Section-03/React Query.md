@@ -175,5 +175,9 @@ export default function PostRecommends() {
 
 - 현재 보고 있는 화면에서 사용하지 않는 데이터 상태
 	- ex: 홈에서 post 캐시를 사용하다가 다른데로 이동했을 때 post가 inactive로 이동
-- cacheTime(gcTime) : 
+- fresh 상태일 경우 (다시 가져올 필요가 없으니) 로딩 없이 바로 가져올 수 있음
+- cacheTime(gcTime) : 사용하지 않는 데이터(캐싱)를 정리하는 시간 (기본값 = 5분)
+	- 해당 쿼리에 대한 active가 없는 경우 = 즉, inactive인 상태로 변경이 되면 해당 시간 이후 메모리에서 삭제
+	- **gcTime은 staleTime보다 길어야 함**
+		- 만약 st=5, gc=3 일 경우, (1) inactive가 된 경우 3분 뒤 캐시가 사라짐 - (2) st는 5분 동안은 fresh임을 보장하는데, 3분 뒤에는 가져올 수 없음 - (3) 의미가 없어짐
 - 
