@@ -50,4 +50,10 @@ export default function RQProvider({ children }: Props) {
 - 위 설정은 기본적으로 전역으로 사용됨
 - 이를 RQ를 사용하는 곳에서 감싸줌
 	- TIP: 전역 레이아웃을 감싸지 않아도 된다. 전역으로 관리하는 것은 범위가 좁을수록 좋음. 불필요하게 감쌀 필요는 없음.
+- 클라이언트 컴포넌트임에 주의
+
+## 서버 컴포넌트 - 클라이언트 컴포넌트 마이그레이션 (prefetchQuery, dehydrated)
+
+> 참고: https://tanstack.com/query/latest/docs/react/guides/prefetching
+
 

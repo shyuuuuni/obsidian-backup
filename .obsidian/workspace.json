@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기록/2024-01-15.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기록/2024-01-15.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기록/2024-01-15.md"
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query.md"
               }
             }
           },
@@ -169,12 +168,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3db5ec6d9c77f5e3",
+  "active": "4d438424bd4315e9",
   "lastOpenFiles": [
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/NextAuth 5 (Auth.js).md",
-    "Assets/Pasted image 20240115162857.png",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query.md",
     "기록/2024-01-15.md",
+    "Assets/Pasted image 20240115162857.png",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
     "TypeScript/타입 확장.md",
     "기록",
