@@ -56,6 +56,8 @@ export default function RQProvider({ children }: Props) {
 
 > 참고: https://tanstack.com/query/latest/docs/react/guides/prefetching, https://tanstack.com/query/latest/docs/react/reference/hydration#dehydrate
 
+### 1. 서버사이드
+
 ```tsx
 import styles from "./Home.module.css";
 import TabProvider from "@/app/(afterLogin)/home/_component/TabProvider";
@@ -96,3 +98,6 @@ export default async function Home() {
 3. 2번을 await를 통해 작업 완료를 기다린 후, dehydrate 함수를 통해 쿼리 클라이언트를 감싼다
 	- `dehydrate`: 나중에 hydration 되거나 캐시될 수 있는 고정된 값으로 변환 (DehydratedState)
 4. HydrationBoundary의 state props로 해당 상태를 전달
+
+### 2. 클라이언트 사이드
+

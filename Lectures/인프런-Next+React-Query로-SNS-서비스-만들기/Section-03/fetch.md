@@ -46,6 +46,8 @@ const revalidatedData = await fetch(`https://...`, {
 
 ### 태그
 
+> 참고: 비슷하게 revalidatePath 를 사용하면 해당 URL 하위에서 사용하는 모든 캐시를 만료시킴
+
 - 해당 요청에 대한 태그를 둘 수 있음
 - `revalidateTag` 함수를 통해 해당 캐시를 만료시킬 수 있음
 
@@ -73,3 +75,4 @@ export async function GET(request: NextRequest) {
   return Response.json({ revalidated: true, now: Date.now() })
 }
 ```
+
