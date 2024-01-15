@@ -158,6 +158,8 @@ export interface User extends DefaultUser {}
 
 ```
 
+참고로 위 유저 타입 이외에는 값을 반환해도 참조할 수 없음.
+
 ## 로그인 방법
 
 ### 클라이언트 사이드
@@ -318,4 +320,10 @@ export default async function Page() {
 }
 ```
 
-## 
+## NextAuth와 CSRF
+
+![[Pasted image 20240115162857.png]]
+
+- NextAuth에서는 세션을 쿠키에 위와 같이 관리함
+- 세션을 탈취하는 공격 = CSRF
+- NextAuth에서는 이를 알아서 방지해줌 (csrf-token)
