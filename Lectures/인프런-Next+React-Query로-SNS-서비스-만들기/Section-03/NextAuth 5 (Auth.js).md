@@ -327,3 +327,27 @@ export default async function Page() {
 - NextAuth에서는 세션을 쿠키에 위와 같이 관리함
 - 세션을 탈취하는 공격 = CSRF
 - NextAuth에서는 이를 알아서 방지해줌 (csrf-token)
+
+## 인증이 필요한 페이지 설정
+
+- middleware 함수에서 세션을 가져와서 세션이 없다면 분기 처리 (redirect)
+- config 내의 matcher에 대해서만 해당 미들웨어가 실행됨
+
+```ts
+// middleware.ts
+import { auth } from "./auth";  
+import { NextResponse } from "next/server";  
+  
+export async function middleware() {  
+  const session = await auth();  
+  if (!session) {  
+    return NextResponse.redirect("http://localhost:3000/i/flow/login");  
+  }  
+}  
+  
+export const config = {  
+  matcher: ["/compose/tweet", "/home", "/explore", "/messages", "/search"],  
+};
+```
+
+- 혹은 위와 동일한 기능을 NextAuth 옵션의 callback에 추가할 수 있음
