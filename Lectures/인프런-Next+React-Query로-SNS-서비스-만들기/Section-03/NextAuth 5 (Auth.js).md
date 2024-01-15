@@ -186,7 +186,62 @@ export interface User extends DefaultUser {}
 
 ### 서버 사이드
 
-- 서버 사이드에서는 사용자가 만든 서버 액션 로그인 함수를 사용하면 된다.
+- 서버 사이드에서는 사용자가 만든 서버 액션 로그인 함수에서 nextauth의 기능을 사용하면 된다.
+
+```ts
+const signup = async (prevState: State, formData: FormData): Promise<State> => {  
+  if (!formData.get("id") || !(formData.get("id") as string)?.trim()) {  
+    return { message: "no_id" };  
+  }  
+  if (!formData.get("name") || !(formData.get("name") as string)?.trim()) {  
+    return { message: "no_name" };  
+  }  
+  if (  
+    !formData.get("password") ||  
+    !(formData.get("password") as string)?.trim()  
+  ) {  
+    return { message: "no_password" };  
+  }  
+  if (!formData.get("image")) {  
+    return { message: "no_image" };  
+  }  
+  let shouldRedirect = false;  
+  try {  
+    console.log("url: ", `${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);  
+    const response = await fetch(  
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users`,  
+      {  
+        method: "post",  
+        body: formData,  
+        credentials: "include",  
+      },  
+    );  
+    console.log(response.status);  
+    if (response.status === 403) {  
+      return { message: "user_exists" };  
+    }  
+    console.log(await response.json());  
+    shouldRedirect = true;  
+
+	// 이 부분 주목: signIn은 auth.ts에서 export한 next-auth의 기능임
+    // 회원 가입 성공 후 로그인까지 진행  
+    await signIn("credentials", {  
+      username: formData.get("id"),  
+      password: formData.get("password"),  
+      redirect: false,  
+    });  
+  } catch (err) {  
+    console.error(err);  
+    return { message: "error" };  
+  }  
+  
+  if (shouldRedirect) {  
+    redirect("/home"); // try/catch문 안에서 X  }  
+  
+  return { message: "success" };  
+};
+```
+
 
 ## 로그아웃 방법
 
@@ -200,3 +255,67 @@ const onLogout = async () => {
   router.replace("/");  
 };
 ```
+
+## 세션 가져오기
+
+### 클라이언트 사이드 (useSession)
+
+- `useSession`을 사용하면 클라이언트 사이드에서 세션 정보를 가져올 수 있음
+- 유저 정보는 `session.data`에 저장되어 있음 (auth.ts에서 return한 값)
+
+```tsx
+"use client";  
+  
+import style from "./LogoutButton.module.css";  
+import { signOut, useSession } from "next-auth/react";  
+import { useRouter } from "next/navigation";  
+  
+export default function LogoutButton() {  
+  const router = useRouter();  
+  const { data: me } = useSession();  
+  
+  const onLogout = async () => {  
+    await signOut({ redirect: false });  
+    router.replace("/");  
+  };  
+  
+  if (!me || !me.user) {  
+    return null;  
+  }  
+  
+  return (  
+    <button className={style.logoutButton} onClick={onLogout}>  
+      <div className={style.logoutUserImage}>  
+        <img src={me.user?.image!} alt={me.user.id} />  
+      </div>  
+      <div className={style.logoutUserName}>  
+        <div>{me.user.name}</div>  
+        <div>@{me.user.id}</div>  
+      </div>  
+    </button>  
+  );  
+}
+```
+
+### 서버 사이드 (auth)
+
+- `next-auth` 설정 파일의 `auth`를 가져와서 사용
+- 기본적으로 promise를 반환하기 때문에 비동기 함수로 바꾸고 await로 호출
+
+```tsx
+import Main from "@/app/(beforeLogin)/_component/Main";  
+import { auth } from "@/auth";  
+import { redirect } from "next/navigation";  
+  
+export default async function Page() {  
+  const session = await auth();  
+  
+  if (session?.user) {  
+    redirect("/home"); // 리턴값이 never : 그 아래로 내려가지 않음
+  }  
+  
+  return <Main />;  
+}
+```
+
+## 

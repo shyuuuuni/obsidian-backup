@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6d6439a65c6c484c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TypeScript/타입 확장.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "383b5433ae00a3d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4d438424bd4315e9",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,11 +158,14 @@
   },
   "active": "4d438424bd4315e9",
   "lastOpenFiles": [
+    "기록/2024-01-15.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
+    "TypeScript/타입 확장.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/NextAuth 5 (Auth.js).md",
+    "기록",
     "Assets/Pasted image 20240114224431.png",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Catch-all route.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/NextAuth 5 (Auth.js).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/redirect 주의점.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/usePathname.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link (useSelectedLayoutSegment).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
@@ -200,7 +178,6 @@
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/클라이언트컴포넌트+서버컴포넌트.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/무제 폴더",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/00-index.md",
-    "TypeScript/타입 확장.md",
     "Docs/링크 목록.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others/개별적으로 공부한 내용을 작성합니다..md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others",
@@ -219,7 +196,6 @@
     "TypeScript/타입 조합.md",
     "TypeScript/타입스크립트 독자적 타입.md",
     "Assets/타입스크립트의-타입-계층-구조.png",
-    "TypeScript/우아한 타입스크립트 with 리액트",
     "Assets/Pasted image 20231010173204.png",
     "Assets/프로미스-상태.png",
     "Assets/논블로킹.png",
