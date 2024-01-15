@@ -12,6 +12,8 @@ npm i -D @tanstack/react-query-devtools@5
 
 ```tsx
 // RQProvider.tsx
+"use client";
+
 import { useState } from "react";  
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";  
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";  
@@ -45,3 +47,7 @@ export default function RQProvider({ children }: Props) {
 
 - 리액트 쿼리 클라이언트를 전달하는 Provider로 감쌀 수 있도록 컴포넌트 작성
 - devtools는 개발 단계에서만 사용하므로 환경 변수로 표시할 수 있도록 설정
+- 위 설정은 기본적으로 전역으로 사용됨
+- 이를 RQ를 사용하는 곳에서 감싸줌
+	- TIP: 전역 레이아웃을 감싸지 않아도 된다. 전역으로 관리하는 것은 범위가 좁을수록 좋음. 불필요하게 감쌀 필요는 없음.
+
