@@ -101,3 +101,51 @@ export default async function Home() {
 
 ### 2. 클라이언트 사이드
 
+```tsx
+"use client";
+
+import { useQuery } from "@tanstack/react-query";
+import { getPostRecommends } from "@/app/(afterLogin)/home/_lib/getPostRecommends";
+import Post from "@/app/(afterLogin)/_component/Post";
+
+export default function PostRecommends() {
+  const { data } = useQuery({
+    queryKey: ["posts", "recommends"],
+    queryFn: getPostRecommends,
+  });
+
+  return data?.map((post) => <Post key={post.postId} post={post} />);
+}
+
+```
+
+- 위와 같이 useQuery를 사용하면 된다. (RQProvider로 감싸진 하위 컴포넌트 일 경우)
+
+## React Query vs Redux(Redux-saga)
+
+> 왜 리액트 쿼리를 사용했나요? 왜 SWR을 사용했나요? (면접 질문 유용할듯)
+
+### 본질
+
+- RQ의 핵심은 서버의 데이터를 fetching하는 것
+- Redux의 핵심은 컴포넌트 간 데이터를 공유하는 것 (그 과정에서 데이터를 불러오는 것도 중요하지만, 기본적으로는 데이터 공유를 위한 것)
+
+### 차이점
+
+- RQ는 많은 요청에 대응하기 쉽도록 자체적으로 캐싱 기능을 제공하고 관리할 수 있게 해 줌.
+	- 매번 새로운 데이터를 가져오는 것이 아님
+	- ex: 포스트 - 수정되지 않는다면 매번 새롭게 가져오지 않아도 됨.
+		1. 시간: 주기적으로 업데이트
+		2. 액션: 수정되었을 때 캐시를 만료시키는 식으로 구현 가능
+- 서버 뿐만 아니라 클라이언트(브라우저)에서도 캐시된 데이터를 가져오는 것이 더 빠른 경험을 제공할 수 있음
+
+## fresh, stale, inactive
+
+- 이러한 상태들은 RQ devtools를 사용하면 굉장히 편함
+
+### fresh
+
+### stale
+
+### inactive
+
