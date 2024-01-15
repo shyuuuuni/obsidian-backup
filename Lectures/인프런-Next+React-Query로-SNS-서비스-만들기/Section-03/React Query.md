@@ -52,8 +52,47 @@ export default function RQProvider({ children }: Props) {
 	- TIP: 전역 레이아웃을 감싸지 않아도 된다. 전역으로 관리하는 것은 범위가 좁을수록 좋음. 불필요하게 감쌀 필요는 없음.
 - 클라이언트 컴포넌트임에 주의
 
-## 서버 컴포넌트 - 클라이언트 컴포넌트 마이그레이션 (prefetchQuery, dehydrated)
+## 서버 컴포넌트 - 클라이언트 컴포넌트 hydration (prefetchQuery, dehydrated)
 
-> 참고: https://tanstack.com/query/latest/docs/react/guides/prefetching
+> 참고: https://tanstack.com/query/latest/docs/react/guides/prefetching, https://tanstack.com/query/latest/docs/react/reference/hydration#dehydrate
 
+```tsx
+import styles from "./Home.module.css";
+import TabProvider from "@/app/(afterLogin)/home/_component/TabProvider";
+import Tab from "@/app/(afterLogin)/home/_component/Tab";
+import PostForm from "@/app/(afterLogin)/home/_component/PostForm";
+import Post from "@/app/(afterLogin)/_component/Post";
+import {
+  dehydrate,
+  HydrationBoundary,
+  QueryClient,
+} from "@tanstack/react-query";
 
+async function getPostRecommends() {
+	// 데이터 가져오기 로직
+}
+
+export default async function Home() {
+  const queryClient = new QueryClient(); // 1
+  await queryClient.prefetchQuery({      // 2
+    queryKey: ["posts", "recommends"],
+    queryFn: getPostRecommends,
+  });
+  const dehydratedState = dehydrate(queryClient); // 3
+
+  return (
+    <main className={styles.main}>
+      <HydrationBoundary state={dehydratedState}> {/* 4 */}
+        {/* 다른 컴포넌트 */}
+      </HydrationBoundary>
+    </main>
+  );
+}
+
+```
+
+1. 서버 컴포넌트(Home)에서 새로운 쿼리 클라이언트 생성
+2. `prefetchQuery` 를 통해 서버에서 초기에 보여줄 데이터를 fetching (무한 스크롤 - prefetchInfiniteQuery 사용)
+3. 2번을 await를 통해 작업 완료를 기다린 후, dehydrate 함수를 통해 쿼리 클라이언트를 감싼다
+	- `dehydrate`: 나중에 hydration 되거나 캐시될 수 있는 고정된 값으로 변환 (DehydratedState)
+4. HydrationBoundary의 state props로 해당 상태를 전달
