@@ -208,5 +208,13 @@ export default function PostRecommends() {
 
 ### reset
 
+- useQuery의 옵션에 initialData를 등록했을 때 사용 가능
+- 초기 데이터로 되돌리고 싶을 때 사용할 수 있음
 
+### 그 외
 
+- remove : 쿼리 캐시를 제거
+- trigger loading : 로딩 상태로 변경 (테스트에 용이함)
+- trigger error : 에러 상태로 변경 (테스트에 용이함)
+
+리액트 쿼리는 로딩, 성공, 에러 상태를 가지기 때문에 devtools를 사용하면 좋다.
