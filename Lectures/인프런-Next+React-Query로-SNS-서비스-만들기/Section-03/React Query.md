@@ -219,5 +219,3 @@ export default function PostRecommends() {
 
 리액트 쿼리는 로딩, 성공, 에러 상태를 가지기 때문에 devtools를 사용하면 좋다.
 
-
-팔로잉가져오기
