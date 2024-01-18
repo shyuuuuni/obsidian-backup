@@ -305,3 +305,53 @@ export async function getSearchResult({
 }
 
 ```
+
+## 조건부로 가져오기
+
+- queryQuery의 enabled 속성을 사용
+- true일 때만 데이터를 가져옴
+
+```tsx
+"use client";
+
+import styles from "./TrendSection.module.css";
+import Trend from "@/app/(afterLogin)/_component/Trend";
+import { useSelectedLayoutSegment } from "next/navigation";
+import { useSession } from "next-auth/react";
+import { useQuery } from "@tanstack/react-query";
+import { getTrends } from "@/app/(afterLogin)/_lib/getTrends";
+
+export default function TrendSection() {
+  const { data: session } = useSession();
+  const segment = useSelectedLayoutSegment();
+
+  const { data } = useQuery({
+    queryFn: getTrends,
+    queryKey: ["trends"],
+    staleTime: 60 * 1000,
+    gcTime: 300 * 1000,
+    enabled: session?.user !== undefined,
+  });
+
+  if (segment === "explore") {
+    return null;
+  }
+  if (!session?.user) {
+    return (
+      <div className={styles.trendBg}>
+        <div className={styles.noTrend}>트렌드를 가져올 수 없습니다.</div>
+      </div>
+    );
+  }
+
+  return (
+    <div className={styles.trendBg}>
+      <div className={styles.trend}>
+        <h3>나를 위한 트렌드</h3>
+        {data?.map((trend) => <Trend key={trend.tagId} trend={trend} />)}
+      </div>
+    </div>
+  );
+}
+
+```
