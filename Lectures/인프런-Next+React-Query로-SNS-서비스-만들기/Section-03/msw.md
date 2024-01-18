@@ -45,3 +45,24 @@ http.get("/api/search/:tag", ({ request, params }) => {
     ]);
   })
 ```
+
+## 에러 반환하기
+
+- ex: 404와 같은 에러를 반환하는 방법
+- httpResponse.json의 첫번째 body에는 데이터, 두번째에는 상태를 전달할 수 있음
+
+```ts
+  http.get("/api/users/:userId", ({ request, params }): StrictResponse<any> => {
+    const { userId } = params;
+    const found = user.find((v) => v.id === userId);
+    if (found) {
+      return HttpResponse.json(found);
+    }
+    return HttpResponse.json(
+      { message: "no_such_user" },
+      {
+        status: 404,
+      },
+    );
+  }),
+```
