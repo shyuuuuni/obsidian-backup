@@ -219,3 +219,89 @@ export default function PostRecommends() {
 
 리액트 쿼리는 로딩, 성공, 에러 상태를 가지기 때문에 devtools를 사용하면 좋다.
 
+## 쿼리 함수 작성
+
+- useQuery의 `queryFn`에 들어가는 쿼리 함수
+- 파라미터가 없다면 그냥 사용하면 되지만, 만약 필터 또는 페이지(무한스크롤) 등의 정보를 넘겨줘야 한다면? - QueryFunctionContext를 사용할 수 있음
+
+### 컴포넌트
+
+- useQuery의 제네릭 : `<쿼리 함수 데이터 타입, 에러 타입, 데이터 타입(=쿼리 함수 데이터 타입), 쿼리키 타입>`
+- 여기서 쿼리키란? 쿼리 함수에 전달되는 값(파라미터)
+
+```tsx
+// component
+"use client";
+
+import Post from "@/app/(afterLogin)/_component/Post";
+import { Post as IPost } from "@/models/Post";
+import { getSearchResult } from "@/app/(afterLogin)/search/_lib/getSearchResult";
+import { useQuery } from "@tanstack/react-query";
+
+type Props = {
+  searchParams: { q: string; f?: string; pf?: string };
+};
+
+export default function SearchResult({ searchParams }: Props) {
+  const { data } = useQuery<
+    IPost[],
+    Object,
+    IPost[],
+    [_1: string, _2: string, Props["searchParams"]]
+  >({
+    queryKey: ["posts", "search", searchParams],
+    queryFn: getSearchResult,
+    staleTime: 60 * 1000, // fresh -> stale, 5분이라는 기준
+    gcTime: 300 * 1000,
+  });
+
+  return data?.map((post) => <Post key={post.postId} post={post} />);
+}
+
+```
+
+### 쿼리 함수
+
+- 쿼리 함수는 파라미터로 아래 예시처럼 queryKey를 입력받을 수 있음
+	- 참고: QueryFunctionContext에는 queryKey, signal(abort 할 때 사용하는 시그널), meta(쿼리 메타데이터)를 전달받는다.
+- queryKey는 호출 시 전달하는 `queryKey` 값을 그대로 받는다.
+
+```ts
+import { Post } from "@/models/Post";
+import { QueryFunction, QueryFunctionContext } from "@tanstack/react-query";
+
+type QueryKey = [
+  _1: string,
+  _2: string,
+  searchParams: { q: string; f?: string; pf?: string },
+];
+
+export async function getSearchResult({
+  queryKey,
+}: QueryFunctionContext<QueryKey>): Promise<Post[]> {
+  const [_1, _2, searchParams] = queryKey;
+  const urlSearchParams = new URLSearchParams(searchParams);
+  const res = await fetch(
+    `${
+      process.env.NEXT_PUBLIC_BASE_URL
+    }/api/posts?${urlSearchParams.toString()}`,
+    {
+      next: {
+        tags: ["posts", "search", searchParams.q],
+      },
+      credentials: "include",
+      cache: "no-store",
+    },
+  );
+  // The return value is *not* serialized
+  // You can return Date, Map, Set, etc.
+
+  if (!res.ok) {
+    // This will activate the closest `error.js` Error Boundary
+    throw new Error("Failed to fetch data");
+  }
+
+  return res.json();
+}
+
+```

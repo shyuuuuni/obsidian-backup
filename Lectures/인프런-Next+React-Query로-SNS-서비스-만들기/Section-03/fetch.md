@@ -76,3 +76,22 @@ export async function GET(request: NextRequest) {
 }
 ```
 
+## SearchParams 한번에 전달하기
+
+```ts
+const urlSearchParams = new URLSearchParams(searchParams);
+const res = await fetch(
+    `${
+      process.env.NEXT_PUBLIC_BASE_URL
+    }/api/posts?${urlSearchParams.toString()}`,
+    {
+      next: {
+        tags: ["posts", "search", searchParams.q],
+      },
+      credentials: "include",
+      cache: "no-store",
+    },
+  );
+```
+
+- URLSearchParams로 만든 후, toString() 함수를 사용하면 된다.
