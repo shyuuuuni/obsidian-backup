@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Next.js 로딩, 에러 처리.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query 로딩, 에러 처리.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Next.js 로딩, 에러 처리.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query 로딩, 에러 처리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Next.js 로딩, 에러 처리.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query 로딩, 에러 처리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Next.js 로딩, 에러 처리.md"
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query 로딩, 에러 처리.md"
               }
             }
           },
@@ -170,8 +170,9 @@
   },
   "active": "4d438424bd4315e9",
   "lastOpenFiles": [
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/무한 스크롤 (React Query).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Next.js 로딩, 에러 처리.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query 로딩, 에러 처리.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/무한 스크롤 (React Query).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/msw.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/언제 SSR을 적용할까요?.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query.md",
@@ -199,7 +200,6 @@
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/무제 폴더",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/00-index.md",
     "Docs/링크 목록.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others/개별적으로 공부한 내용을 작성합니다..md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-05",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-04",
