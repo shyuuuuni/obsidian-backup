@@ -45,3 +45,41 @@ export default function Posts() {
 
 - layout.tsx로 전달되는 부분은 따로 전송이 됨
 - 그 속의 페이지 데이터에서는 fetching 등이 발생할 수 있으므로 따로 청크를 나눠서 전송함
+
+### 우선순위
+
+1. 페이지 Loading.tsx
+2. 서버 컴포넌트 Suspense
+3. 클라이언트 컴포넌트 (isPending 등)
+
+### 서버 컴포넌트 최적화
+
+- 서버 컴포넌트 페이지에서 데이터 Fetchiing -> 렌더링 순서로 되는 경우 최적화를 진행할 수 있음
+- 데이터를 사용하는 부분만 Suspense로 감싸 fetching 로직을 이관하면, 해당 부분을 제외하고는 먼저 렌더링하여 클라이언트에게 전송
+
+```tsx
+import styles from "./Home.module.css";
+import TabProvider from "@/app/(afterLogin)/home/_component/TabProvider";
+import Tab from "@/app/(afterLogin)/home/_component/Tab";
+import PostForm from "@/app/(afterLogin)/home/_component/PostForm";
+import { Suspense } from "react";
+import HomeContentsSuspense from "@/app/(afterLogin)/home/_component/HomeContentsSuspense";
+import Loading from "@/app/(afterLogin)/home/loading";
+
+export default async function Home() {
+  return (
+    <main className={styles.main}>
+      <TabProvider>
+        <Tab />
+        <PostForm />
+        <Suspense fallback={<Loading />}>
+          <HomeContentsSuspense />
+        </Suspense>
+      </TabProvider>
+    </main>
+  );
+}
+
+```
+
+- HomeConentsSuspense에서는 데이터를 가져오고(prefetch) 그려주는 역할
