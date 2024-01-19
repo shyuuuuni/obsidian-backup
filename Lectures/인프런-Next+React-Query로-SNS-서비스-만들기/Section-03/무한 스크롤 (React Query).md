@@ -62,3 +62,35 @@
     )
   }),
 ```
+
+
+
+
+## 서버 컴포넌트 설정
+
+- prefetchInfiniteQuery 사용
+- initialPageParams를 필수로 적용해야 함
+
+```tsx
+export default async function Home() {
+  const queryClient = new QueryClient();
+  await queryClient.prefetchInfiniteQuery({
+    queryKey: ["posts", "recommends"],
+    queryFn: getPostRecommends,
+    initialPageParam: 0, // cursor 기본값
+  });
+  const dehydratedState = dehydrate(queryClient);
+
+  return (
+    <main className={styles.main}>
+      <HydrationBoundary state={dehydratedState}>
+        <TabProvider>
+          <Tab />
+          <PostForm />
+          <HomeContents />
+        </TabProvider>
+      </HydrationBoundary>
+    </main>
+  );
+}
+```
