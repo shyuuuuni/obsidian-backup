@@ -20,4 +20,28 @@ SSR을 사용하면,
 Streaming은 페이지를 작은 청크 단위로 나누고, 해당 청크별로 로딩 -> 로딩이 완료되면 사용자에게 전달하는 방식
 
 - 기존에는 하나의 페이지의 모든 데이터 fetching을 기다리고 한번에 전달
-- Suspense를 사용하면 각각의 컴포넌트에서 데이터 fetching 후 각자 전달 - TTFB, 
+- Suspense를 사용하면 각각의 컴포넌트에서 데이터 fetching 후 각자 전달 - TTFB, FCP, TTI 시간 감소
+
+```tsx
+//example
+import { Suspense } from 'react'
+import { PostFeed, Weather } from './Components'
+ 
+export default function Posts() {
+  return (
+    <section>
+      <Suspense fallback={<p>Loading feed...</p>}>
+        <PostFeed />
+      </Suspense>
+      <Suspense fallback={<p>Loading weather...</p>}>
+        <Weather />
+      </Suspense>
+    </section>
+  )
+}
+```
+
+## Next.js의 Streaming 사례
+
+- layout.tsx로 전달되는 부분은 따로 전송이 됨
+- 그 속의 페이지 데이터에서는 fetching 등이 발생할 수 있으므로 따로 청크를 나눠서 전송함
