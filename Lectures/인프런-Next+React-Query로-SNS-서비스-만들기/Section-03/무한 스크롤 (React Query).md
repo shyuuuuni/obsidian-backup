@@ -64,7 +64,36 @@
 ```
 
 
+## 쿼리 함수 설정
 
+- 호출하는 쿼리 함수에는 
+
+```ts
+import { Post } from "@/models/Post";
+import { QueryFunctionContext } from "@tanstack/react-query";
+
+type QueryKey = [_1: string, _2: string];
+
+export async function getPostRecommends({
+  pageParam,
+}: QueryFunctionContext<QueryKey, string>): Promise<Post[]> {
+  const res = await fetch(
+    `http://localhost:9090/api/postRecommends?cursor=${pageParam}`,
+    {
+      next: {
+        tags: ["posts", "recommends"],
+      },
+    },
+  );
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch PostRecommends Data");
+  }
+
+  return res.json();
+}
+
+```
 
 ## 서버 컴포넌트 설정
 
