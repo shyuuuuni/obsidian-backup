@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query 로딩, 에러 처리.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Streaming (Suspense의 장점).md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query 로딩, 에러 처리.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Streaming (Suspense의 장점).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query 로딩, 에러 처리.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Streaming (Suspense의 장점).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query 로딩, 에러 처리.md"
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Streaming (Suspense의 장점).md"
               }
             }
           },
@@ -170,7 +170,10 @@
   },
   "active": "4d438424bd4315e9",
   "lastOpenFiles": [
+    "Assets/Pasted image 20240120045750.png",
+    "Assets/Pasted image 20240120045352.png",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Next.js 로딩, 에러 처리.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Streaming (Suspense의 장점).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query 로딩, 에러 처리.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/무한 스크롤 (React Query).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/msw.md",
@@ -198,8 +201,6 @@
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/server component, client component.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/클라이언트컴포넌트+서버컴포넌트.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/무제 폴더",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/00-index.md",
-    "Docs/링크 목록.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-05",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-04",
