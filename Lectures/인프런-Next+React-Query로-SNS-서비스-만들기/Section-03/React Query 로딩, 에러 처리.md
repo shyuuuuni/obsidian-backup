@@ -37,6 +37,12 @@ export default function FollowSection() {
 
 - 주의: 만약 위와 같은 클라이언트 컴포넌트 외부에 `prefetchQuery`를 통해서 가져온다면 로딩창이 뜨지 않음 - SSR로 모두 만들어서 내보내기 때문
 
+## useSuspenseQuery, useSuspenseInfiniteQuery
+
+기존의 useQuery, useInfiniteQuery와 하는 일은 동일,
+
+하지만 외부에서 Suspense로 감싸졌을 경우, 해당 데이터 fetching 중 그 Suspense의 Fallback을 보여줌 ( 관리하기 쉽고 일관성 있음 )
+
 ## error
 
 - isError : 에러 상태인지 확인
