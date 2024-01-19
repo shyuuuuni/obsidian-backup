@@ -66,7 +66,9 @@
 
 ## 쿼리 함수 설정
 
-- 호출하는 쿼리 함수에는 
+- 호출하는 쿼리 함수에는 `pageParam`을 자동으로 전달해준다.
+- 타입스크립트에서는 `QueryFunctionContext<쿼리키타입, pageParam타입>`을 전달한다.
+- 이후 쿼리스트링으로 pageParam을 전달한다.
 
 ```ts
 import { Post } from "@/models/Post";
