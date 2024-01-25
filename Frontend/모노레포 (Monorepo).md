@@ -36,3 +36,13 @@
 - 저장소가 거대해 질 수 있음 - 빌드가 느려질 수 있음
 - 하나의 프로젝트가 다른 프로젝트에 영향을 미칠 수 있음
 
+# 모노레포 구현 도구
+
+> 참고 : https://d2.naver.com/helloworld/7553804#ch2
+
+- Leana
+- npm workspace
+- yarn workspace
+- turborepo
+
+
