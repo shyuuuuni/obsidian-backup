@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/모노레포 (Monorepo).md",
+                "file": "TOEIC/Speaking/Part05.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Frontend/모노레포 (Monorepo).md",
+                "file": "TOEIC/Speaking/Part05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Frontend/모노레포 (Monorepo).md",
+                "file": "TOEIC/Speaking/Part05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Frontend/모노레포 (Monorepo).md"
+                "file": "TOEIC/Speaking/Part05.md"
               }
             }
           },
@@ -158,9 +158,18 @@
   },
   "active": "4d438424bd4315e9",
   "lastOpenFiles": [
+    "TOEIC/Speaking/Part03.md",
+    "TOEIC/Speaking/Part05.md",
+    "TOEIC/Speaking/Part04.md",
+    "TOEIC/Speaking/Part02.md",
+    "TOEIC/Speaking/Part01.md",
+    "TOEIC/Speaking/단어.md",
+    "README.md",
+    "TOEIC/Speaking",
+    "TOEIC",
+    "Frontend/모노레포 (Monorepo).md",
     "Assets/Pasted image 20240126021836.png",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query 로딩, 에러 처리.md",
-    "Frontend/모노레포 (Monorepo).md",
     "Frontend",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Streaming (Suspense의 장점).md",
     "Assets/Pasted image 20240120045750.png",
@@ -184,26 +193,17 @@
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/usePathname.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link (useSelectedLayoutSegment).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/intercepting routes.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/npm 최신 버전 설정.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/layout.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/routing group.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/parallel routes.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/server component, client component.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/무제 폴더",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-05",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-04",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기",
     "Assets/타입스크립트의-타입-계층-구조.png",
     "Assets/Pasted image 20231010173204.png",
     "Assets/프로미스-상태.png",
     "Assets/논블로킹.png",
     "Assets/동기-vs-비동기.png",
-    "Assets/블로킹.png",
     "JavaScript/무제 파일.canvas"
   ]
 }
