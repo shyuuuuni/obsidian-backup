@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "68149f6b02ba41fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TOEIC/Speaking/Part01.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -160,8 +172,9 @@
   "lastOpenFiles": [
     "TOEIC/Speaking/Part01.md",
     "TOEIC/Speaking/단어.md",
-    "TOEIC/Speaking/Part05.md",
+    "Assets/Pasted image 20240131123611.png",
     "TOEIC/Speaking/Part02.md",
+    "TOEIC/Speaking/Part05.md",
     "TOEIC/Speaking/Part03.md",
     "TOEIC/Speaking/Part04.md",
     "README.md",
@@ -192,7 +205,6 @@
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/redirect 주의점.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/usePathname.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link (useSelectedLayoutSegment).md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/무제 폴더",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-05",
@@ -203,7 +215,6 @@
     "Assets/Pasted image 20231010173204.png",
     "Assets/프로미스-상태.png",
     "Assets/논블로킹.png",
-    "Assets/동기-vs-비동기.png",
     "JavaScript/무제 파일.canvas"
   ]
 }
