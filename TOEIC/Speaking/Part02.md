@@ -96,7 +96,7 @@
 
 ### 공통 묘사 (2인 이상, 3인은 무조건 공통으로.)
 
-> 준비 시간에 어떻게 묶을 ㅈ
+> 준비 시간에 어떻게 묶을 지 고민하기
 
 - They are **looking at each other** and wearing suits.
 - one of them : 한 명이 눈에 띌 때 / last of them : 나머지 사람들 (= the others) / some os them : 일부분 / most of them : 대부분 / all of them : 전체
