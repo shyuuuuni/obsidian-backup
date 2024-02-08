@@ -42,6 +42,8 @@
 - clothes lack : 옷걸이
 - indoor, outdoor : 실내/실외 (어진지 모르겠을 때)
 - a fair of fins : 오리발 (단독 사용 X)
+- **casual clothes** : 적당히 캐주얼하게 입고 있을 때 사용
+- **formal clothes** : 정장 입고 있을 때 사용
 
 ### 문장
 
@@ -49,6 +51,59 @@
 - there are so many ~~ : (배경에 묘사하기 애매할때) ~가 많아 보인다.
 	- ex) In the background, there are so many things.
 - listen to ~ : ~에게 말하다
-- 
+- sit in front of one's laptop (computer) : ~의 노트북 앞에 앉아 있다
 
 - 
+# 템플릿
+
+1. 1인 : 서론 - 전체요약 - 인물묘사(3문장) - 사물배경 - 마무리(생략가능)
+2. 2인 : 서론 - 전체요약(생략가능) - 인물묘사(1인당 1문장 + 공통문장) - 사물배경
+3. 3인 이상 : 서론 - 전체요약(생략가능) - 인물묘사(3-4문장) - 사물 배경(생략가능)
+
+## 서론
+
+- This is a pricture taken at/in 장소 (일반적으로 at이 더 큰 범위. in은 ~ 안)
+- This is a picture taken indoors (실내)
+- This is a picture taken outdoors (실외)
+
+## 전체 요약 (생략 가능)
+
+- The first thing I can see from this picture is ~~ : 사진에서 가장 먼저 보이는 것은 ~~ 입니다.
+	- ex: `The first thing I can see from this picture is` a woman **sitting at a desk** (ing를 통해 ~ 하고 있는 ~ 입니다 표현하기)
+	- ex: `The first thing I can see from this picture is` two/three people -ing
+
+## 세부 사항
+
+### 방향
+
+> 사진의 전면, 왼쪽, 오른쪽, 뒤쪽 표현 가능
+
+- In the foreground of the picture, there is/are ~~ or I can see ~~ : 전면 묘사
+- In the middle of the picture, ~
+- **On** the left/right side of the picture, ~
+- In the background of the picture, ~
+- in front of / beside = next to / behinid 활용하기
+
+여기서 there is ~~ 대신 I can see ~ 도 가능.
+
+### 묘사
+
+> 현재 진행형 사용 (헤어스타일은 제외. 헤어 - she has long hair)
+
+- ~가 ~를 하고있다.
+- ~는 ~를 가지고 있다. 
+- ~는 ~를 입고 있다.
+
+### 공통 묘사 (2인 이상, 3인은 무조건 공통으로.)
+
+> 준비 시간에 어떻게 묶을 ㅈ
+
+- They are **looking at each other** and wearing suits.
+- one of them : 한 명이 눈에 띌 때 / last of them : 나머지 사람들 (= the others) / some os them : 일부분 / most of them : 대부분 / all of them : 전체
+- 
+
+## 마무리 (생략 가능)
+
+> 1인 묘사가 아닌 경우 다른 핵심 묘사를 하는 것이 중요 -> 굳이 안하는게 좋을수도
+
+- Overall, It seems/looks like 주어 + 동사 (ex: woman is busy)

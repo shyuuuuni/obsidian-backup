@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEIC/Speaking/단어.md",
+                "file": "TOEIC/Speaking/Part02.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TOEIC/Speaking/단어.md",
+                "file": "TOEIC/Speaking/Part02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TOEIC/Speaking/단어.md",
+                "file": "TOEIC/Speaking/Part02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEIC/Speaking/단어.md"
+                "file": "TOEIC/Speaking/Part02.md"
               }
             }
           },
@@ -170,8 +170,8 @@
   },
   "active": "4d438424bd4315e9",
   "lastOpenFiles": [
-    "TOEIC/Speaking/Part01.md",
     "TOEIC/Speaking/단어.md",
+    "TOEIC/Speaking/Part01.md",
     "TOEIC/Speaking/Part02.md",
     "Assets/Pasted image 20240131123611.png",
     "TOEIC/Speaking/Part05.md",
