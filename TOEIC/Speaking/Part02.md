@@ -30,17 +30,25 @@
 - firstly - next 이렇게 설명해도 좋음
 ### 단어
 
+- around(어롸운드)
+- garden (궐든)
+- you'll (유을(ㅣ)~유어L)
+- photos (포로스)
+- approximately (어프록시머(틀)리)
 - beside : 옆의
 - are walking along : 함께 걷고 있다
 - corridor (코리더얼) : 복도
 - atmosphere (앹모스피얼) : 분위기
 - clothes lack : 옷걸이
 - indoor, outdoor : 실내/실외 (어진지 모르겠을 때)
+- a fair of fins : 오리발 (단독 사용 X)
 
 ### 문장
 
 - it is a good buy or not : 사면 좋을지 안좋을지
 - there are so many ~~ : (배경에 묘사하기 애매할때) ~가 많아 보인다.
-# 유형
+	- ex) In the background, there are so many things.
+- listen to ~ : ~에게 말하다
+- 
 
 - 

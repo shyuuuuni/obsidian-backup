@@ -21,4 +21,19 @@
 	- **If 절 억양 살려서 읽기(100% 출제)**, 전개 순서에 따른 읽기 연습
 	- 용무별 소개 (press one, press two) - 단호하게 읽기
 	- 영업시간 안내 (Monday to Friday) - 단호하게 읽기
-- 
+
+# 강세
+
+## 문장
+
+- A, B and C
+	- A, B는 높게, C는 내리기
+- 쉼표에서는 억양 유지
+- 마침표에서는 내리기
+
+## 단어
+
+- UPdate
+- hoWEver
+- ExPEct
+- TEMperature
