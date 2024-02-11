@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEIC/Speaking/Part03.md",
+                "file": "TOEIC/Speaking/Part04.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TOEIC/Speaking/Part03.md",
+                "file": "TOEIC/Speaking/Part04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TOEIC/Speaking/Part03.md",
+                "file": "TOEIC/Speaking/Part04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEIC/Speaking/Part03.md"
+                "file": "TOEIC/Speaking/Part04.md"
               }
             }
           },
@@ -168,14 +168,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "325ff9994de49610",
+  "active": "4d438424bd4315e9",
   "lastOpenFiles": [
+    "Assets/Pasted image 20240211153956.png",
+    "Assets/Pasted image 20240211152724.png",
+    "TOEIC/Speaking/Part03.md",
     "TOEIC/Speaking/Part02.md",
     "TOEIC/Speaking/단어.md",
     "TOEIC/Speaking/Part01.md",
     "Assets/Pasted image 20240131123611.png",
     "TOEIC/Speaking/Part05.md",
-    "TOEIC/Speaking/Part03.md",
     "TOEIC/Speaking/Part04.md",
     "README.md",
     "TOEIC/Speaking",
@@ -214,7 +216,6 @@
     "Assets/타입스크립트의-타입-계층-구조.png",
     "Assets/Pasted image 20231010173204.png",
     "Assets/프로미스-상태.png",
-    "Assets/논블로킹.png",
     "JavaScript/무제 파일.canvas"
   ]
 }
