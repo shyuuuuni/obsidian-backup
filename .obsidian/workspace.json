@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TOEIC/Speaking/Part04.md",
+                "file": "Note/lostark-tips/용어 번역.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TOEIC/Speaking/Part04.md",
+                "file": "Note/lostark-tips/용어 번역.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TOEIC/Speaking/Part04.md",
+                "file": "Note/lostark-tips/용어 번역.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TOEIC/Speaking/Part04.md"
+                "file": "Note/lostark-tips/용어 번역.md"
               }
             }
           },
@@ -170,6 +170,11 @@
   },
   "active": "4d438424bd4315e9",
   "lastOpenFiles": [
+    "TOEIC/Speaking/Part04.md",
+    "Note/lostark-tips/용어 번역.md",
+    "Note/lostark-tips",
+    "Note",
+    "기록/2024-01-15.md",
     "Assets/Pasted image 20240211153956.png",
     "Assets/Pasted image 20240211152724.png",
     "TOEIC/Speaking/Part03.md",
@@ -178,7 +183,6 @@
     "TOEIC/Speaking/Part01.md",
     "Assets/Pasted image 20240131123611.png",
     "TOEIC/Speaking/Part05.md",
-    "TOEIC/Speaking/Part04.md",
     "README.md",
     "TOEIC/Speaking",
     "TOEIC",
@@ -197,7 +201,6 @@
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/자동으로 숫자 콤마 찍기.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/fetch.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/NextAuth 5 (Auth.js).md",
-    "기록/2024-01-15.md",
     "Assets/Pasted image 20240115162857.png",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
     "TypeScript/타입 확장.md",
@@ -211,11 +214,8 @@
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-05",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-04",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02",
     "Assets/타입스크립트의-타입-계층-구조.png",
     "Assets/Pasted image 20231010173204.png",
-    "Assets/프로미스-상태.png",
     "JavaScript/무제 파일.canvas"
   ]
 }
