@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/lostark-tips/용어 번역.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/lostark-tips/용어 번역.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/lostark-tips/용어 번역.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/lostark-tips/용어 번역.md"
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md"
               }
             }
           },
@@ -170,8 +170,16 @@
   },
   "active": "4d438424bd4315e9",
   "lastOpenFiles": [
-    "TOEIC/Speaking/Part04.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/intercepting routes.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Catch-all route.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/fetch.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/usePathname.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link (useSelectedLayoutSegment).md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/layout.md",
     "Note/lostark-tips/용어 번역.md",
+    "TOEIC/Speaking/Part04.md",
     "Note/lostark-tips",
     "Note",
     "기록/2024-01-15.md",
@@ -199,17 +207,9 @@
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/언제 SSR을 적용할까요?.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/자동으로 숫자 콤마 찍기.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/fetch.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/NextAuth 5 (Auth.js).md",
     "Assets/Pasted image 20240115162857.png",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
-    "TypeScript/타입 확장.md",
     "기록",
     "Assets/Pasted image 20240114224431.png",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Catch-all route.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/redirect 주의점.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/usePathname.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link (useSelectedLayoutSegment).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/무제 폴더",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-05",
