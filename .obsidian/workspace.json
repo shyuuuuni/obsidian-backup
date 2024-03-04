@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/lostark-tips/자료.md",
+                "file": "Note/lostark-tips/재련 정보.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/lostark-tips/자료.md",
+                "file": "Note/lostark-tips/재련 정보.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/lostark-tips/자료.md",
+                "file": "Note/lostark-tips/재련 정보.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/lostark-tips/자료.md"
+                "file": "Note/lostark-tips/재련 정보.md"
               }
             }
           },
@@ -183,10 +183,10 @@
   },
   "active": "9c224f7ee0e64a63",
   "lastOpenFiles": [
+    "Note/lostark-tips/자료.md",
     "Assets/스크린샷 2024-03-03 오후 3.55.26.png",
     "Assets/스크린샷 2024-03-03 오후 3.55.16.png",
     "Assets/스크린샷 2024-03-03 오후 3.55.09.png",
-    "Note/lostark-tips/자료.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
     "Note/lostark-tips/재련 정보.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/intercepting routes.md",
@@ -224,7 +224,6 @@
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/msw.md",
     "Assets/Pasted image 20240115162857.png",
     "기록",
-    "Assets/Pasted image 20240114224431.png",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/무제 폴더",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-05",
