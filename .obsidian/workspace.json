@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/lostark-tips/재련 정보.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/lostark-tips/재련 정보.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/lostark-tips/재련 정보.md",
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/lostark-tips/재련 정보.md"
+                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md"
               }
             }
           },
@@ -183,19 +183,22 @@
   },
   "active": "9c224f7ee0e64a63",
   "lastOpenFiles": [
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/layout.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/npm 최신 버전 설정.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/routing group.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/parallel routes.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
+    "Note/lostark-tips/재련 정보.md",
     "Note/lostark-tips/자료.md",
     "Assets/스크린샷 2024-03-03 오후 3.55.26.png",
     "Assets/스크린샷 2024-03-03 오후 3.55.16.png",
     "Assets/스크린샷 2024-03-03 오후 3.55.09.png",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
-    "Note/lostark-tips/재련 정보.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/intercepting routes.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Catch-all route.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/fetch.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/usePathname.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/params (slug 가져오기).md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-02/active link (useSelectedLayoutSegment).md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/layout.md",
     "Note/lostark-tips/용어 번역.md",
     "TOEIC/Speaking/Part04.md",
     "Note/lostark-tips",
@@ -220,8 +223,6 @@
     "Assets/Pasted image 20240120045750.png",
     "Assets/Pasted image 20240120045352.png",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Next.js 로딩, 에러 처리.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/무한 스크롤 (React Query).md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/msw.md",
     "Assets/Pasted image 20240115162857.png",
     "기록",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/무제 폴더",
