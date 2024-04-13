@@ -25,9 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
+                "file": "Note/lostark-tips/자료.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "df7af9d2e72ef069",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Assets/스크린샷 2024-03-03 오후 3.55.09.png"
               }
             }
           },
@@ -44,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
+                "file": "Assets/스크린샷 2024-03-03 오후 3.55.09.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
+                "file": "Assets/스크린샷 2024-03-03 오후 3.55.09.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md"
+                "file": "Assets/스크린샷 2024-03-03 오후 3.55.09.png"
               }
             }
           },
@@ -181,15 +191,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9c224f7ee0e64a63",
+  "active": "df7af9d2e72ef069",
   "lastOpenFiles": [
+    "Note/lostark-tips/자료.md",
+    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/layout.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/npm 최신 버전 설정.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/routing group.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/parallel routes.md",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
     "Note/lostark-tips/재련 정보.md",
-    "Note/lostark-tips/자료.md",
     "Assets/스크린샷 2024-03-03 오후 3.55.26.png",
     "Assets/스크린샷 2024-03-03 오후 3.55.16.png",
     "Assets/스크린샷 2024-03-03 오후 3.55.09.png",
