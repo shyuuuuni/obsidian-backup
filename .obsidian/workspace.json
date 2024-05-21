@@ -42,6 +42,16 @@
             }
           },
           {
+            "id": "02610addd15b58d4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
+          },
+          {
             "id": "68149f6b02ba41fb",
             "type": "leaf",
             "state": {
@@ -54,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -191,7 +201,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "df7af9d2e72ef069",
+  "active": "02610addd15b58d4",
   "lastOpenFiles": [
     "Note/lostark-tips/자료.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
