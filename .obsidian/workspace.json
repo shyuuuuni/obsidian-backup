@@ -45,9 +45,11 @@
             "id": "02610addd15b58d4",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.12"
+                "file": "Note/lostark-tips/자료.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -130,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assets/스크린샷 2024-03-03 오후 3.55.09.png",
+                "file": "Note/lostark-tips/자료.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assets/스크린샷 2024-03-03 오후 3.55.09.png",
+                "file": "Note/lostark-tips/자료.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assets/스크린샷 2024-03-03 오후 3.55.09.png"
+                "file": "Note/lostark-tips/자료.md"
               }
             }
           },
@@ -203,13 +205,13 @@
   },
   "active": "02610addd15b58d4",
   "lastOpenFiles": [
+    "Note/lostark-tips/재련 정보.md",
     "Note/lostark-tips/자료.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/layout.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/npm 최신 버전 설정.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/routing group.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/parallel routes.md",
-    "Note/lostark-tips/재련 정보.md",
     "Assets/스크린샷 2024-03-03 오후 3.55.26.png",
     "Assets/스크린샷 2024-03-03 오후 3.55.16.png",
     "Assets/스크린샷 2024-03-03 오후 3.55.09.png",
