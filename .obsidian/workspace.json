@@ -8,65 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4d438424bd4315e9",
+            "id": "e76c8c8f3e74e99e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/lostark-tips/재련 정보.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c224f7ee0e64a63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/lostark-tips/자료.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df7af9d2e72ef069",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Assets/스크린샷 2024-03-03 오후 3.55.09.png"
-              }
-            }
-          },
-          {
-            "id": "02610addd15b58d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note/lostark-tips/자료.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68149f6b02ba41fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TOEIC/Speaking/Part01.md",
+                "file": "Note/boostcamp-ai-proejct/onboarding.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#프로젝트-따봉",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -132,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/lostark-tips/자료.md",
+                "file": "Note/boostcamp-ai-proejct/onboarding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/lostark-tips/자료.md",
+                "file": "Note/boostcamp-ai-proejct/onboarding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/lostark-tips/자료.md"
+                "file": "Note/boostcamp-ai-proejct/onboarding.md"
               }
             }
           },
@@ -203,10 +157,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "02610addd15b58d4",
+  "active": "29a6139eb4c448bb",
   "lastOpenFiles": [
-    "Note/lostark-tips/재련 정보.md",
     "Note/lostark-tips/자료.md",
+    "Assets/스크린샷 2024-03-03 오후 3.55.09.png",
+    "Note/lostark-tips/재련 정보.md",
+    "Note/boostcamp-ai-proejct/onboarding.md",
+    "Note/boostcamp ai project (2024-07~).md",
+    "Note/boostcamp-ai-proejct",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/00-index.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/layout.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/npm 최신 버전 설정.md",
@@ -214,7 +172,6 @@
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/parallel routes.md",
     "Assets/스크린샷 2024-03-03 오후 3.55.26.png",
     "Assets/스크린샷 2024-03-03 오후 3.55.16.png",
-    "Assets/스크린샷 2024-03-03 오후 3.55.09.png",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-01/intercepting routes.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Catch-all route.md",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/fetch.md",
@@ -239,18 +196,14 @@
     "TOEIC",
     "Frontend/모노레포 (Monorepo).md",
     "Assets/Pasted image 20240126021836.png",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/React Query 로딩, 에러 처리.md",
     "Frontend",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Streaming (Suspense의 장점).md",
     "Assets/Pasted image 20240120045750.png",
     "Assets/Pasted image 20240120045352.png",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-03/Next.js 로딩, 에러 처리.md",
     "Assets/Pasted image 20240115162857.png",
     "기록",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/무제 폴더",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Others",
     "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-05",
-    "Lectures/인프런-Next+React-Query로-SNS-서비스-만들기/Section-04",
     "JavaScript/무제 파일.canvas"
   ]
 }
