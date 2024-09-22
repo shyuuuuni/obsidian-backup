@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8bc9fcc2d9bfeca5",
+        "id": "6375204881f2794c",
         "type": "tabs",
         "children": [
           {
-            "id": "9cbaf12cb445df22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "궁금한 점.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0a1712b7b083a52",
+            "id": "6e5bdf3c2fa8e927",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -94,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "궁금한 점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "궁금한 점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "궁금한 점.md"
-              }
+              "state": {}
             }
           },
           {
@@ -165,7 +149,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9cbaf12cb445df22",
+  "active": "6e5bdf3c2fa8e927",
   "lastOpenFiles": [
     "궁금한 점.md",
     "무제 파일.md",
