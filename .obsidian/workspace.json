@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6375204881f2794c",
+        "id": "290b7ea147d8c7b4",
         "type": "tabs",
         "children": [
           {
-            "id": "6e5bdf3c2fa8e927",
+            "id": "6741253e58c8d7fb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -149,7 +149,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6e5bdf3c2fa8e927",
+  "active": "6741253e58c8d7fb",
   "lastOpenFiles": [
     "궁금한 점.md",
     "무제 파일.md",
